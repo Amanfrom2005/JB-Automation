@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Hide Google logo and extra text */
+.goog-logo-link,
+.goog-te-gadget span {
+  display: none !important;
+}
+.goog-te-gadget {
+  font-size: 0 !important;
+  margin: 0 !important;
+}
+.goog-te-combo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  color: #374151;
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.775rem;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.goog-te-combo:hover {
+  border-color: #9ca3af;
+}
