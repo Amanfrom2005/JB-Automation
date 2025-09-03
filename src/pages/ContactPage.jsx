@@ -1,15 +1,13 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Mail, Phone, MapPin, Clock, Send, ArrowRight } from "lucide-react";
 import { useForm, ValidationError } from "@formspree/react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 18 },
-  show: {
-    opacity: 1,
-    y: 0,
-    transition: { duration: 0.45, ease: [0.22, 1, 0.36, 1] },
-  },
+  show: { opacity: 1, y: 0, transition: { duration: 0.45, ease: [0.22, 1, 0.36, 1] } },
 };
 
 const stagger = {
@@ -18,15 +16,20 @@ const stagger = {
 };
 
 export default function Contact() {
-  const [form, setForm] = useState({
-    name: "",
-    email: "",
-    subject: "",
-    message: "",
-  });
-  const [state, handleSubmit] = useForm("FORM_ID"); // <-- replace with your Formspree form ID
+  const [form, setForm] = useState({ name: "", email: "", subject: "", message: "" });
+  const [state, handleSubmit] = useForm("mrbaywkz"); // Formspree form ID
   const loading = state.submitting;
   const sent = state.succeeded;
+
+  // Show toast on success or error and clear form on success
+  useEffect(() => {
+    if (state.succeeded) {
+      toast.success("Message sent successfully!", { position: "top-center" });
+      setForm({ name: "", email: "", subject: "", message: "" });
+    } else if (state.errors && state.errors.length > 0) {
+      toast.error("Failed to send message. Please try again.", { position: "top-center" });
+    }
+  }, [state.succeeded, state.errors]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -35,6 +38,8 @@ export default function Contact() {
 
   return (
     <main className="min-h-dvh bg-slate-50 text-neutral-900 mt-28">
+      {/* Toast container (once per app; fine to keep here for this page) */}
+      <ToastContainer position="top-center" autoClose={4000} closeOnClick pauseOnHover />
       <section className="mx-auto w-full max-w-6xl px-4 py-12 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div
@@ -50,18 +55,11 @@ export default function Contact() {
           >
             Contact
           </motion.span>
-          <motion.h1
-            variants={fadeUp}
-            className="text-pretty text-3xl font-semibold sm:text-4xl md:text-5xl"
-          >
+          <motion.h1 variants={fadeUp} className="text-pretty text-3xl font-semibold sm:text-4xl md:text-5xl">
             Let’s build something great together
           </motion.h1>
-          <motion.p
-            variants={fadeUp}
-            className="max-w-2xl text-sm leading-relaxed text-gray-500"
-          >
-            Reach us by form, email, or phone. We usually respond within one
-            business day.
+          <motion.p variants={fadeUp} className="max-w-2xl text-sm leading-relaxed text-gray-500">
+            Reach us by form, email, or phone. We usually respond within one business day.
           </motion.p>
         </motion.div>
 
@@ -86,13 +84,12 @@ export default function Contact() {
                 <div>
                   <h3 className="text-base font-semibold">Our Location</h3>
                   <p className="mt-1 text-sm text-neutral-600">
-                    JB Automation, B2, Mitul Indl. Estate, Sativali Road, Vasai
-                    (East), Dist. Thane - 401 208. India.
+                    JB Automation, B2, Mitul Indl. Estate, Sativali Road, Vasai (East), Dist. Thane - 401 208. India.
                   </p>
                 </div>
               </div>
 
-              {/* Google Maps Embed */}
+              {/* Google Maps Embed (kept intact) */}
               <div className="mt-4 overflow-hidden rounded-lg ring-1 ring-inset ring-neutral-200 dark:ring-neutral-800">
                 <iframe
                   title="Office location map"
@@ -118,17 +115,11 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="text-base font-semibold">Email</h3>
-                  <a
-                    href="mailto:info@jbautomation.com"
-                    className="mt-1 text-sm text-neutral-600 hover:underline"
-                  >
+                  <a href="mailto:info@jbautomation.com" className="mt-1 text-sm text-neutral-600 hover:underline">
                     info@jbautomation.com
                   </a>
                   <br />
-                  <a
-                    href="mailto:jbautomation@hotmail.com"
-                    className="mt-1 text-sm text-neutral-600 hover:underline"
-                  >
+                  <a href="mailto:jbautomation@hotmail.com" className="mt-1 text-sm text-neutral-600 hover:underline">
                     jbautomation@hotmail.com
                   </a>
                 </div>
@@ -140,15 +131,9 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="text-base font-semibold">Phone</h3>
-                  <p className="mt-1 text-sm text-neutral-600 ">
-                    +91 0250 2450068
-                  </p>
-                  <p className="mt-1 text-sm text-neutral-600 ">
-                    +91 7276261116
-                  </p>
-                  <p className="mt-1 text-sm text-neutral-600 ">
-                    +91 9561295310
-                  </p>
+                  <p className="mt-1 text-sm text-neutral-600 ">+91 0250 2450068</p>
+                  <p className="mt-1 text-sm text-neutral-600 ">+91 7276261116</p>
+                  <p className="mt-1 text-sm text-neutral-600 ">+91 9561295310</p>
                 </div>
               </div>
 
@@ -158,9 +143,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="text-base font-semibold">Hours</h3>
-                  <p className="mt-1 text-sm text-neutral-600 ">
-                    Mon–Fri: 9:00–18:00
-                  </p>
+                  <p className="mt-1 text-sm text-neutral-600 ">Mon–Fri: 9:00–18:00</p>
                 </div>
               </div>
             </motion.div>
@@ -177,19 +160,14 @@ export default function Contact() {
             <form
               onSubmit={async (e) => {
                 await handleSubmit(e);
-                if (state.succeeded) {
-                  setForm({ name: "", email: "", subject: "", message: "" });
-                }
+                // Clearing and toast are triggered in useEffect above on state changes
               }}
               className="rounded-2xl border border-neutral-200 bg-white p-5 shadow-2xl backdrop-blur sm:p-6"
               aria-describedby={sent ? "contact-success" : undefined}
             >
               <div className="flex flex-col gap-4 sm:flex-row">
                 <div className="flex-1">
-                  <label
-                    htmlFor="name"
-                    className="mb-2 block text-sm font-medium"
-                  >
+                  <label htmlFor="name" className="mb-2 block text-sm font-medium">
                     Name
                   </label>
                   <input
@@ -203,10 +181,7 @@ export default function Contact() {
                   />
                 </div>
                 <div className="flex-1">
-                  <label
-                    htmlFor="email"
-                    className="mb-2 block text-sm font-medium"
-                  >
+                  <label htmlFor="email" className="mb-2 block text-sm font-medium">
                     Email
                   </label>
                   <input
@@ -219,19 +194,12 @@ export default function Contact() {
                     placeholder="you@example.com"
                     className="h-11 w-full rounded-lg border border-neutral-300 bg-white px-3 text-sm outline-none ring-blue-500/10 transition focus:ring-4"
                   />
-                  <ValidationError
-                    prefix="Email"
-                    field="email"
-                    errors={state.errors}
-                  />
+                  <ValidationError prefix="Email" field="email" errors={state.errors} />
                 </div>
               </div>
 
               <div className="mt-4">
-                <label
-                  htmlFor="subject"
-                  className="mb-2 block text-sm font-medium"
-                >
+                <label htmlFor="subject" className="mb-2 block text-sm font-medium">
                   Subject
                 </label>
                 <input
@@ -245,10 +213,7 @@ export default function Contact() {
               </div>
 
               <div className="mt-4">
-                <label
-                  htmlFor="message"
-                  className="mb-2 block text-sm font-medium"
-                >
+                <label htmlFor="message" className="mb-2 block text-sm font-medium">
                   Message
                 </label>
                 <textarea
@@ -261,11 +226,7 @@ export default function Contact() {
                   placeholder="Write your message..."
                   className="w-full min-h-40 max-h-96 rounded-lg border border-neutral-300 bg-white px-3 py-3 text-sm outline-none ring-blue-500/10 transition focus:ring-4"
                 />
-                <ValidationError
-                  prefix="Message"
-                  field="message"
-                  errors={state.errors}
-                />
+                <ValidationError prefix="Message" field="message" errors={state.errors} />
               </div>
 
               <div className="mt-5 flex flex-col items-stretch gap-3 sm:flex-row sm:items-center sm:justify-between">
@@ -276,25 +237,9 @@ export default function Contact() {
                 >
                   {loading ? (
                     <>
-                      <svg
-                        className="h-4 w-4 animate-spin"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        aria-hidden="true"
-                      >
-                        <circle
-                          cx="12"
-                          cy="12"
-                          r="10"
-                          stroke="currentColor"
-                          strokeWidth="4"
-                          className="opacity-25"
-                        />
-                        <path
-                          className="opacity-75"
-                          fill="currentColor"
-                          d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"
-                        />
+                      <svg className="h-4 w-4 animate-spin" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                        <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" className="opacity-25" />
+                        <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z" />
                       </svg>
                       Sending…
                     </>
@@ -314,17 +259,6 @@ export default function Contact() {
                   <ArrowRight className="h-4 w-4 transition group-hover:translate-x-0.5" />
                 </a>
               </div>
-
-              {sent && (
-                <motion.div
-                  id="contact-success"
-                  initial={{ opacity: 0, y: -6 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  className="mt-4 rounded-lg border border-emerald-300 bg-emerald-50 px-3 py-2 text-sm text-emerald-800 dark:border-emerald-800 dark:bg-emerald-900/40 dark:text-emerald-200"
-                >
-                  Thanks! Your message has been sent. We’ll be in touch shortly.
-                </motion.div>
-              )}
             </form>
           </motion.section>
         </div>
