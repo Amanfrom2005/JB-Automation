@@ -131,9 +131,9 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="text-base font-semibold">Phone</h3>
-                  <p className="mt-1 text-sm text-neutral-600 ">+91 0250 2450068</p>
-                  <p className="mt-1 text-sm text-neutral-600 ">+91 7276261116</p>
-                  <p className="mt-1 text-sm text-neutral-600 ">+91 9561295310</p>
+                  <a href="tel:+9102502450068" className="mt-1 text-sm text-neutral-600 ">+91 0250 2450068</a><br/>
+                  <a href="tel:+917276261116" className="mt-1 text-sm text-neutral-600 ">+91 7276261116</a><br/>
+                  <a href="tel:+919561295310" className="mt-1 text-sm text-neutral-600 ">+91 9561295310</a>
                 </div>
               </div>
 

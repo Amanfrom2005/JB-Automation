@@ -69,7 +69,7 @@ export default function Slider() {
                   className="h-full w-full object-cover bg-center brightness-75"
                 />
                 <div className="absolute inset-0" />
-                <div className="absolute top-1 left-1 p-4 max-w-md bg-white/45 backdrop-blur-lg rounded-md border-2 border-white">
+                <div className="absolute top-1 left-1 p-4 max-w-md bg-white/45 backdrop-blur-lg rounded-xl shadow-2xl">
                   <p className="uppercase tracking-widest text-black">Design</p>
                   <h2 className="text-2xl md:text-4xl font-bold mb-4 text-black">
                     {slide.title}
@@ -104,7 +104,7 @@ export default function Slider() {
           <div
             key={idx}
             onClick={() => setActiveIndex(idx)}
-            className={`relative w-40 h-20 cursor-pointer transition filter rounded-md overflow-hidden ${
+            className={`relative w-40 h-20 cursor-pointer transition filter rounded-md overflow-hidden shadow-2xl ${
               idx === activeIndex ? "brightness-100 border border-cyan-300" : "brightness-75"
             }`}
           >

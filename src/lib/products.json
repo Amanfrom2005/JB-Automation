@@ -1,0 +1,328 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Bottle Filling Machine",
+      "category": "Bottle Filling Machine",
+      "rating": 4.7,
+      "description": "Bottle Filling machines are suitable for filling mineral water into preformed bottles and also can handle a wide range of products related to food, dairy and beverage industries.  With increased output, operation smoothness and flexibility, the bottle fillers outperform on the increasing demand.",
+      "features": [
+        "BFM-40 - 40BPM machine with fully automatic operations.",
+        "BFM-60 - 60BPM machine with fully automatic operations.",
+        "BFM-90 - 90BPM machine with fully automatic operations.",
+        "BFM-120 - 120BPM machine with fully automatic operations."
+      ],
+      "image": "/product/img1.png",
+      "images": [
+        "/product/img1.png",
+        "/product/img2.png",
+        "/product/img3.png",
+        "/product/img4.png"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 2,
+      "name": "Smart Fitness Watch",
+      "category": "Electronics",
+      "price": 199.99,
+      "discountPrice": 169.99,
+      "rating": 4.5,
+      "description": "Track your fitness goals with our advanced smart watch. Monitor heart rate, sleep quality, and activity levels with precision sensors and a beautiful OLED display.",
+      "features": [
+        "Heart rate monitoring",
+        "Sleep tracking",
+        "Water resistant to 50m",
+        "7-day battery life",
+        "GPS tracking"
+      ],
+      "colors": ["Black", "White", "Rose Gold"],
+      "image": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "images": [
+        "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/437038/pexels-photo-437038.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/437038/pexels-photo-437038.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 3,
+      "name": "Premium Leather Wallet",
+      "category": "Fashion",
+      "price": 89.99,
+      "discountPrice": null,
+      "rating": 4.8,
+      "description": "Crafted from genuine full-grain leather, our premium wallet combines timeless style with practical functionality. Features multiple card slots, bill compartments, and RFID protection.",
+      "features": [
+        "Genuine full-grain leather",
+        "RFID protection",
+        "8 card slots",
+        "2 bill compartments",
+        "Slim design that fits comfortably in pocket"
+      ],
+      "colors": ["Brown", "Black", "Tan"],
+      "image": "https://images.pexels.com/photos/934063/pexels-photo-934063.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "images": [
+        "https://images.pexels.com/photos/934063/pexels-photo-934063.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/934064/pexels-photo-934064.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/934066/pexels-photo-934066.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 4,
+      "name": "Ceramic Coffee Pour-Over Set",
+      "category": "Home",
+      "price": 79.99,
+      "discountPrice": 59.99,
+      "rating": 4.6,
+      "description": "Elevate your coffee experience with our handcrafted ceramic pour-over set. The precise design ensures optimal extraction while the minimalist aesthetic enhances your kitchen decor.",
+      "features": [
+        "Handcrafted ceramic construction",
+        "Precise pour spout for optimal water flow",
+        "Includes ceramic dripper, server, and measuring scoop",
+        "Dishwasher safe",
+        "Heat-resistant handle"
+      ],
+      "colors": ["White", "Black", "Terracotta"],
+      "image": "https://images.pexels.com/photos/1793035/pexels-photo-1793035.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "images": [
+        "https://images.pexels.com/photos/1793035/pexels-photo-1793035.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/1793036/pexels-photo-1793036.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/3020919/pexels-photo-3020919.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 5,
+      "name": "Premium Plant-Based Protein",
+      "category": "Health",
+      "price": 59.99,
+      "discountPrice": null,
+      "rating": 4.4,
+      "description": "Our premium plant-based protein provides 25g of complete protein per serving. Made from a blend of pea, rice, and hemp proteins with no artificial flavors or sweeteners.",
+      "features": [
+        "25g protein per serving",
+        "Complete amino acid profile",
+        "No artificial flavors or sweeteners",
+        "Easy digestion formula",
+        "30 servings per container"
+      ],
+      "colors": ["Chocolate", "Vanilla", "Unflavored"],
+      "image": "https://images.pexels.com/photos/4397840/pexels-photo-4397840.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "images": [
+        "https://images.pexels.com/photos/4397840/pexels-photo-4397840.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/4397838/pexels-photo-4397838.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/4397839/pexels-photo-4397839.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 6,
+      "name": "Minimalist Desk Lamp",
+      "category": "Home",
+      "price": 129.99,
+      "discountPrice": 99.99,
+      "rating": 4.7,
+      "description": "Illuminate your workspace with our minimalist desk lamp. Features adjustable brightness levels, color temperature control, and a sleek design that complements any decor.",
+      "features": [
+        "Adjustable brightness with touch controls",
+        "Color temperature ranging from warm to cool white",
+        "USB charging port built-in",
+        "Flexible arm for precise positioning",
+        "Energy-efficient LED with 50,000 hour lifespan"
+      ],
+      "colors": ["White", "Black", "Brushed Metal"],
+      "image": "https://images.pexels.com/photos/1112598/pexels-photo-1112598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "images": [
+        "https://images.pexels.com/photos/1112598/pexels-photo-1112598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/1112599/pexels-photo-1112599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/3637740/pexels-photo-3637740.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 7,
+      "name": "Organic Cotton T-Shirt",
+      "category": "Fashion",
+      "price": 39.99,
+      "discountPrice": 29.99,
+      "rating": 4.5,
+      "description": "Our organic cotton t-shirt combines comfort, sustainability, and style. Made from 100% GOTS-certified organic cotton with a modern fit that flatters all body types.",
+      "features": [
+        "100% GOTS-certified organic cotton",
+        "Pre-shrunk fabric",
+        "Reinforced stitching for durability",
+        "Tagless design for maximum comfort",
+        "Available in sizes XS to XXL"
+      ],
+      "colors": ["White", "Black", "Navy", "Heather Gray"],
+      "image": "https://images.pexels.com/photos/1656684/pexels-photo-1656684.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "images": [
+        "https://images.pexels.com/photos/1656684/pexels-photo-1656684.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/1656685/pexels-photo-1656685.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/3755706/pexels-photo-3755706.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 8,
+      "name": "Ultra-Light Travel Backpack",
+      "category": "Travel",
+      "price": 149.99,
+      "discountPrice": 129.99,
+      "rating": 4.8,
+      "description": "Perfect for adventurers, our ultra-light travel backpack weighs just 1.2 lbs while providing 28L of storage. Features water-resistant material, multiple compartments, and ergonomic design.",
+      "features": [
+        "Ultra-lightweight at just 1.2 lbs",
+        "28L capacity with expandable main compartment",
+        "Water-resistant ripstop nylon construction",
+        "Padded laptop sleeve fits up to 15\" laptops",
+        "Ergonomic shoulder straps and back panel"
+      ],
+      "colors": ["Charcoal", "Navy", "Forest Green"],
+      "image": "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "images": [
+        "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/2905239/pexels-photo-2905239.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/2905240/pexels-photo-2905240.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 9,
+      "name": "Professional Chef's Knife",
+      "category": "Home",
+      "price": 119.99,
+      "discountPrice": null,
+      "rating": 4.9,
+      "description": "Crafted for culinary excellence, our professional chef's knife features a precision-forged high-carbon stainless steel blade. The ergonomic handle provides perfect balance and control.",
+      "features": [
+        "8-inch high-carbon stainless steel blade",
+        "Full tang construction for perfect balance",
+        "Hand-honed edge at 15° per side",
+        "Ergonomic handle for reduced fatigue",
+        "Includes protective sheath"
+      ],
+      "colors": ["Classic", "Black Edition"],
+      "image": "https://images.pexels.com/photos/3962294/pexels-photo-3962294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "images": [
+        "https://images.pexels.com/photos/3962294/pexels-photo-3962294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/3962285/pexels-photo-3962285.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/3962287/pexels-photo-3962287.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 10,
+      "name": "Wireless Charging Pad",
+      "category": "Electronics",
+      "price": 49.99,
+      "discountPrice": 39.99,
+      "rating": 4.4,
+      "description": "Simplify your charging routine with our sleek wireless charging pad. Compatible with all Qi-enabled devices, delivering fast charging in an elegant, minimalist design.",
+      "features": [
+        "Qi wireless charging compatible",
+        "Fast charging up to 15W",
+        "LED charging indicator",
+        "Non-slip surface",
+        "Overcharge protection"
+      ],
+      "colors": ["Black", "White", "Walnut"],
+      "image": "https://images.pexels.com/photos/3945645/pexels-photo-3945645.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "images": [
+        "https://images.pexels.com/photos/3945645/pexels-photo-3945645.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/3945654/pexels-photo-3945654.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/4526407/pexels-photo-4526407.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 11,
+      "name": "Stainless Steel Water Bottle",
+      "category": "Health",
+      "price": 34.99,
+      "discountPrice": 29.99,
+      "rating": 4.6,
+      "description": "Stay hydrated in style with our vacuum-insulated stainless steel water bottle. Keeps drinks cold for 24 hours or hot for 12 hours with no condensation or heat transfer.",
+      "features": [
+        "Double-wall vacuum insulation",
+        "24 hours cold, 12 hours hot",
+        "BPA-free and phthalate-free",
+        "Leak-proof lid with carrying handle",
+        "Fits standard cup holders"
+      ],
+      "colors": ["Matte Black", "Stainless Steel", "Ocean Blue", "Forest Green"],
+      "image": "https://images.pexels.com/photos/1188649/pexels-photo-1188649.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "images": [
+        "https://images.pexels.com/photos/1188649/pexels-photo-1188649.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/1188648/pexels-photo-1188648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/3768694/pexels-photo-3768694.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 11,
+      "name": "Stainless Steel Water Bottle",
+      "category": "Health",
+      "price": 34.99,
+      "discountPrice": 29.99,
+      "rating": 4.6,
+      "description": "Stay hydrated in style with our vacuum-insulated stainless steel water bottle. Keeps drinks cold for 24 hours or hot for 12 hours with no condensation or heat transfer.",
+      "features": [
+        "Double-wall vacuum insulation",
+        "24 hours cold, 12 hours hot",
+        "BPA-free and phthalate-free",
+        "Leak-proof lid with carrying handle",
+        "Fits standard cup holders"
+      ],
+      "colors": ["Matte Black", "Stainless Steel", "Ocean Blue", "Forest Green"],
+      "image": "https://images.pexels.com/photos/1188649/pexels-photo-1188649.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "images": [
+        "https://images.pexels.com/photos/1188649/pexels-photo-1188649.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/1188648/pexels-photo-1188648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/3768694/pexels-photo-3768694.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 12,
+      "name": "Organic Herbal Tea Collection",
+      "category": "Health",
+      "price": 29.99,
+      "discountPrice": null,
+      "rating": 4.7,
+      "description": "Our collection of organic herbal teas features six distinctive blends crafted from ethically sourced ingredients. Each blend is formulated to promote wellness while delivering exceptional flavor.",
+      "features": [
+        "6 organic herbal tea blends",
+        "15 biodegradable tea sachets per blend",
+        "Ethically sourced ingredients",
+        "No artificial flavors or preservatives",
+        "Recyclable packaging"
+      ],
+      "colors": ["Assorted"],
+      "image": "https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "images": [
+        "https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/230477/pexels-photo-230477.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "https://images.pexels.com/photos/1638280/pexels-photo-1638280.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      ],
+      "inStock": true
+    }
+  ],
+  "categories": [
+    "All",
+    "Bottle Filling Machine",
+    "Cup filling Machine",
+    "Vaccum Packaging Machine",
+    "Lebeling Machine",
+    "Ghee Jar filling Machine",
+    "Shrink wrapping Machine",
+    "Handling Systems",
+    "Robotics automation",
+    "Customised Solutions",
+    "Conveying Solutions",
+    "Ergonomic Solutions"
+  ]
+}

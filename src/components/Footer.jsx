@@ -93,7 +93,7 @@ export default function Footer() {
                   <li key={l.label}>
                     <Link
                       to={l.href}
-                      className="text-sm text-slate-700 hover:text-blue-600 dark:text-slate-300 dark:hover:text-blue-400"
+                      className="text-sm text-slate-700 hover:text-blue-600 dark:text-slate-300"
                     >
                       {l.label}
                     </Link>
@@ -108,18 +108,18 @@ export default function Footer() {
               <ul className="mt-3 space-y-2 text-sm text-slate-700 dark:text-slate-300">
                 <li className="flex items-start gap-2">
                   <MapPin className="mt-0.5 h-4 w-4 text-blue-600 dark:text-blue-400" />
-                  <span>123 Innovation Street, Tech City, TC 12345</span>
+                  <span>JB Automation, B2, Mitul Indl. <br/> Estate, Sativali Road, <br/> Vasai (East), Dist. <br/> Thane - 401 208. India.</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <Phone className="h-4 w-4 text-blue-600 dark:text-blue-400" />
-                  <a href="tel:1234567890" className="hover:text-blue-600 dark:hover:text-blue-400">
-                    (123) 456-7890
+                  <a href="tel:+919561295310" className="hover:text-blue-600">
+                    +91 9561295310
                   </a>
                 </li>
                 <li className="flex items-center gap-2">
                   <Mail className="h-4 w-4 text-blue-600 dark:text-blue-400" />
-                  <a href="mailto:hello@example.com" className="hover:text-blue-600 dark:hover:text-blue-400">
-                    hello@example.com
+                  <a href="mailto:info@jbautomation.com" className="hover:text-blue-600">
+                    info@jbautomation.com
                   </a>
                 </li>
               </ul>
@@ -135,7 +135,7 @@ export default function Footer() {
                     href={href}
                     aria-label={name}
                     whileHover={{ y: -2 }}
-                    className="inline-flex h-10 w-10 items-center justify-center rounded-sm border border-slate-300 bg-white text-slate-700 shadow-sm hover:border-blue-600 hover:text-blue-600 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300 dark:hover:border-blue-400 dark:hover:text-blue-400"
+                    className="inline-flex h-10 w-10 items-center justify-center rounded-sm border border-slate-300 bg-white text-slate-700 shadow-sm hover:border-blue-600 hover:text-blue-600 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300 dark:hover:border-blue-400"
                   >
                     <Icon size={18} aria-hidden="true" />
                   </motion.a>
@@ -158,7 +158,7 @@ export default function Footer() {
             <ul className="flex flex-wrap items-center gap-x-6 gap-y-2">
               {policies.map((p) => (
                 <li key={p.label}>
-                  <a href={p.href} className="hover:text-blue-600 dark:hover:text-blue-400">
+                  <a href={p.href} className="hover:text-blue-600">
                     {p.label}
                   </a>
                 </li>

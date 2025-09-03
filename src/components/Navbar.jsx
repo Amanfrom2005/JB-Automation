@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Globe, LogIn, Menu, Search, UserPlus, X } from "lucide-react";
-import { Link } from "react-router-dom";
-import { cn } from "../lib/utils";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 const mainItems = [
   { label: "OYSTAR GROUP", to: "/" },
@@ -21,6 +20,36 @@ const utilityLinks = [
 ];
 
 export function Navbar() {
+  const navigate = useNavigate();
+  const location = useLocation();
+  const [searchQuery, setSearchQuery] = useState('');
+
+  const handleSearch = (e) => {
+    e.preventDefault();
+    const q = searchQuery.trim();
+    if (q) {
+      navigate({ pathname: '/products', search: `?search=${encodeURIComponent(q)}` });
+    } else {
+      navigate({ pathname: '/products' });
+    }
+  };
+
+  const handleSearchChange = (e) => {
+    const value = e.target.value;
+    setSearchQuery(value);
+
+    // If on shop page, update search params immediately
+    if (location.pathname === '/') {
+      const params = new URLSearchParams(location.search);
+      const q = value.trim();
+      if (q) {
+        params.set('search', q);
+      } else {
+        params.delete('search');
+      }
+      navigate({ pathname: '/products', search: params.toString() ? `?${params.toString()}` : '' });
+    }
+  };
   const [open, setOpen] = useState(false);
 
   // Close menu on ESC
@@ -99,20 +128,19 @@ export function Navbar() {
 
         {/* Search + CTA (Desktop) */}
         <div className="hidden md:flex items-center gap-3">
-          <div className="relative">
-            <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-gray-400" />
+          <form
+            onSubmit={handleSearch}
+            className="hidden md:flex items-center max-w-lg w-full bg-gray-100 rounded-full px-4 py-2 mx-4"
+          >
+            <Search size={20} className="text-gray-500" />
             <input
-              type="search"
-              placeholder="Search"
-              className={cn(
-                "h-10 w-[240px] rounded-md border px-9 text-sm outline-none",
-                "placeholder:text-gray-400 focus:border-gray-500"
-              )}
+              type="text"
+              placeholder="Search products..."
+              className="bg-transparent border-none outline-none w-full ml-2 text-sm text-gray-700 placeholder-gray-500"
+              value={searchQuery}
+              onChange={handleSearchChange}
             />
-          </div>
-          <button className="h-10 rounded-md bg-blue-600 px-4 text-sm font-semibold text-white hover:bg-blue-700 transition">
-            Search
-          </button>
+          </form>
         </div>
 
         {/* Mobile Menu Button */}
@@ -163,14 +191,18 @@ export function Navbar() {
             <div className="p-4 overflow-y-auto max-h-[90vh]">
               {/* Search */}
               <div className="mb-4">
-                <div className="relative">
-                  <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-gray-400" />
-                  <input
-                    type="search"
-                    placeholder="Search"
-                    className="h-10 w-full rounded-md border px-9 text-sm outline-none placeholder:text-gray-400"
-                  />
-                </div>
+                <form onSubmit={handleSearch} className="md:hidden pb-2 px-2">
+                  <div className="flex items-center bg-gray-100 rounded-full px-3 py-2">
+                    <Search size={18} className="text-gray-500" />
+                    <input
+                      type="text"
+                      placeholder="Search products..."
+                      className="bg-transparent border-none outline-none w-full ml-2 text-sm text-gray-700 placeholder-gray-500"
+                      value={searchQuery}
+                      onChange={handleSearchChange}
+                    />
+                  </div>
+                </form>
               </div>
 
               <Link
