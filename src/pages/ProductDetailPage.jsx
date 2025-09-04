@@ -11,7 +11,6 @@ import {
 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import productsData from "../lib/products.json";
-import { RWebShare } from "react-web-share";
 
 const fadeIn = {
   hidden: { opacity: 0, y: 8 },
@@ -20,14 +19,17 @@ const fadeIn = {
 
 const scaleIn = {
   hidden: { opacity: 0, scale: 0.98 },
-  show: { opacity: 1, scale: 1, transition: { duration: 0.35, ease: "easeOut" } },
+  show: {
+    opacity: 1,
+    scale: 1,
+    transition: { duration: 0.35, ease: "easeOut" },
+  },
 };
 
 const ProductDetailPage = () => {
   const { id } = useParams();
   const [product, setProduct] = useState(null);
   const [selectedImage, setSelectedImage] = useState("");
-  const [selectedColor, setSelectedColor] = useState("");
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -43,7 +45,6 @@ const ProductDetailPage = () => {
             foundProduct.image ||
             ""
         );
-        setSelectedColor((foundProduct.colors && foundProduct.colors[0]) || "");
       }
 
       setLoading(false);
@@ -63,7 +64,9 @@ const ProductDetailPage = () => {
   if (!product) {
     return (
       <div className="text-center py-12">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">Product Not Found</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          Product Not Found
+        </h2>
         <p className="text-gray-600 mb-6">
           The product you're looking for doesn't exist or has been removed.
         </p>
@@ -89,7 +92,9 @@ const ProductDetailPage = () => {
     >
       {/* Breadcrumbs */}
       <div className="flex items-center text-sm text-slate-500 mb-6">
-        <Link to="/" className="hover:text-blue-700 transition-colors">Home</Link>
+        <Link to="/" className="hover:text-blue-700 transition-colors">
+          Home
+        </Link>
         <ChevronRight size={16} className="mx-2" />
         <Link to="/products" className="hover:text-blue-700 transition-colors">
           {product.category}
@@ -168,7 +173,9 @@ const ProductDetailPage = () => {
                   />
                 ))}
               </div>
-              <span className="text-slate-600 ml-2">{product.rating} rating</span>
+              <span className="text-slate-600 ml-2">
+                {product.rating} rating
+              </span>
             </div>
 
             <p className="text-slate-700 mb-6 leading-relaxed">
@@ -177,19 +184,28 @@ const ProductDetailPage = () => {
 
             {/* Actions */}
             <div className="flex items-center justify-between border-t border-slate-200 pt-6">
-              <RWebShare
-                data={{
-                  text: `Check out ${product.name}`,
-                  url: typeof window !== "undefined" ? window.location.href : "",
-                  title: "Share Product",
+              <button
+                onClick={async () => {
+                  if (navigator.share) {
+                    try {
+                      await navigator.share({
+                        title: "Share Product",
+                        text: `Check out ${product.name}`,
+                        url: window.location.href,
+                      });
+                      console.log("Shared successfully!");
+                    } catch (err) {
+                      console.error("Error sharing:", err);
+                    }
+                  } else {
+                    alert("Web Share API not supported in this browser.");
+                  }
                 }}
-                onClick={() => console.log("Shared successfully!")}
+                className="flex items-center text-blue-700 hover:text-blue-800 bg-blue-50 px-4 py-2 rounded-full transition-colors"
               >
-                <button className="flex items-center text-blue-700 hover:text-blue-800 bg-blue-50 px-4 py-2 rounded-full transition-colors">
-                  <Share2 size={18} className="mr-2" />
-                  Share
-                </button>
-              </RWebShare>
+                <Share2 size={18} className="mr-2" />
+                Share
+              </button>
 
               <Link
                 to="/contact"
@@ -206,7 +222,9 @@ const ProductDetailPage = () => {
           className="border-t border-slate-200 p-6 lg:p-8 bg-white"
           variants={fadeIn}
         >
-          <h2 className="text-lg font-bold text-slate-900 mb-4">Key Features</h2>
+          <h2 className="text-lg font-bold text-slate-900 mb-4">
+            Key Features
+          </h2>
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
             {(product.features || []).map((feature, index) => (
               <motion.li
