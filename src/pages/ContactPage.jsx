@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { Mail, Phone, MapPin, Clock, Send, ArrowRight } from "lucide-react";
+import { Mail, Phone, MapPin, Clock, Send, ArrowRight, PackagePlus } from "lucide-react";
 import { useForm, ValidationError } from "@formspree/react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -144,6 +144,16 @@ export default function Contact() {
                 <div>
                   <h3 className="text-base font-semibold">Hours</h3>
                   <p className="mt-1 text-sm text-neutral-600 ">Mon–Fri: 9:00–18:00</p>
+                </div>
+              </div>
+
+              <div className="mt-4 flex items-start gap-4">
+                <div className="rounded-lg border border-blue-600/15 p-2 text-blue-500">
+                  <PackagePlus className="h-5 w-5" aria-hidden="true" />
+                </div>
+                <div>
+                  <h3 className="text-base font-semibold">GST No:</h3>
+                  <p className="mt-1 text-sm text-neutral-600 ">27AEJPN3412Q1Z2</p>
                 </div>
               </div>
             </motion.div>

@@ -7,6 +7,8 @@ import CareerPage from "./pages/CareerPage";
 import ServicePage from "./pages/ServicePage";
 import ProductPage from "./pages/ProductPage";
 import ProductDetailPage from "./pages/ProductDetailPage";
+import AboutPage from "./pages/AboutPage";
+import NewsPage from "./components/News";
 import Footer from "./components/Footer";
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
         <Route path="/service" element={<ServicePage />} />
         <Route path="/products" element={<ProductPage />} />
         <Route path="product/:id" element={<ProductDetailPage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/news" element={<NewsPage />} />
       </Routes>
       <Footer />
     </>

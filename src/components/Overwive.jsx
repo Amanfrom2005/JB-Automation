@@ -12,15 +12,15 @@ const staggerContainer = {
 };
 
 const items = [
-  { name: "Cup Filling Machine", path: "/cup-filling-machine" },
-  { name: "Bottle Filling Machine", path: "/bottle-filling-machine" },
-  { name: "Vacuum Packaging Machine", path: "/vacuum-packaging-machine" },
-  { name: "Labeling Machine", path: "/labeling-machine" },
-  { name: "Ghee Jar Filling Machine", path: "/ghee-jar-filling-machine" },
-  { name: "Shrink Wrapping Machine", path: "/shrink-wrapping-machine" },
-  { name: "Handling Systems", path: "/handling-systems" },
-  { name: "Robotics Automation", path: "/robotics-automation" },
-  { name: "Customized Solutions", path: "/customized-solutions" },
+  { name: "Bottle Filling Machine", path: "/product/11" },
+  { name: "Cup Filling Machine", path: "/product/22" },
+  { name: "Vacuum Packaging Machine", path: "/product/33" },
+  { name: "Labeling Machine", path: "/product/44" },
+  { name: "Ghee Jar Filling Machine", path: "/product/55" },
+  { name: "Shrink Wrapping Machine", path: "/product/66" },
+  { name: "Handling Systems", path: "/product/77" },
+  { name: "Robotics Automation", path: "/product/88" },
+  { name: "Conveying Solutions", path: "/product/99" },
 ];
 
 export default function Overview() {
