@@ -1,316 +1,4 @@
 {
-  "products": [
-    {
-      "id": 1,
-      "name": "Bottle Filling Machine",
-      "category": "Bottle Filling Machine",
-      "rating": 4.7,
-      "description": "Bottle Filling machines are suitable for filling mineral water into preformed bottles and also can handle a wide range of products related to food, dairy and beverage industries.  With increased output, operation smoothness and flexibility, the bottle fillers outperform on the increasing demand.",
-      "features": [
-        "BFM-40 - 40BPM machine with fully automatic operations.",
-        "BFM-60 - 60BPM machine with fully automatic operations.",
-        "BFM-90 - 90BPM machine with fully automatic operations.",
-        "BFM-120 - 120BPM machine with fully automatic operations."
-      ],
-      "image": "/product/img1.png",
-      "images": [
-        "/product/img1.png",
-        "/product/img2.png",
-        "/product/img3.png",
-        "/product/img4.png"
-      ],
-      "inStock": true
-    },
-    {
-      "id": 2,
-      "name": "Smart Fitness Watch",
-      "category": "Electronics",
-      "price": 199.99,
-      "discountPrice": 169.99,
-      "rating": 4.5,
-      "description": "Track your fitness goals with our advanced smart watch. Monitor heart rate, sleep quality, and activity levels with precision sensors and a beautiful OLED display.",
-      "features": [
-        "Heart rate monitoring",
-        "Sleep tracking",
-        "Water resistant to 50m",
-        "7-day battery life",
-        "GPS tracking"
-      ],
-      "colors": ["Black", "White", "Rose Gold"],
-      "image": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "images": [
-        "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "https://images.pexels.com/photos/437038/pexels-photo-437038.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "https://images.pexels.com/photos/437038/pexels-photo-437038.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-      ],
-      "inStock": true
-    },
-    {
-      "id": 3,
-      "name": "Premium Leather Wallet",
-      "category": "Fashion",
-      "price": 89.99,
-      "discountPrice": null,
-      "rating": 4.8,
-      "description": "Crafted from genuine full-grain leather, our premium wallet combines timeless style with practical functionality. Features multiple card slots, bill compartments, and RFID protection.",
-      "features": [
-        "Genuine full-grain leather",
-        "RFID protection",
-        "8 card slots",
-        "2 bill compartments",
-        "Slim design that fits comfortably in pocket"
-      ],
-      "colors": ["Brown", "Black", "Tan"],
-      "image": "https://images.pexels.com/photos/934063/pexels-photo-934063.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "images": [
-        "https://images.pexels.com/photos/934063/pexels-photo-934063.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "https://images.pexels.com/photos/934064/pexels-photo-934064.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "https://images.pexels.com/photos/934066/pexels-photo-934066.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-      ],
-      "inStock": true
-    },
-    {
-      "id": 4,
-      "name": "Ceramic Coffee Pour-Over Set",
-      "category": "Home",
-      "price": 79.99,
-      "discountPrice": 59.99,
-      "rating": 4.6,
-      "description": "Elevate your coffee experience with our handcrafted ceramic pour-over set. The precise design ensures optimal extraction while the minimalist aesthetic enhances your kitchen decor.",
-      "features": [
-        "Handcrafted ceramic construction",
-        "Precise pour spout for optimal water flow",
-        "Includes ceramic dripper, server, and measuring scoop",
-        "Dishwasher safe",
-        "Heat-resistant handle"
-      ],
-      "colors": ["White", "Black", "Terracotta"],
-      "image": "https://images.pexels.com/photos/1793035/pexels-photo-1793035.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "images": [
-        "https://images.pexels.com/photos/1793035/pexels-photo-1793035.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "https://images.pexels.com/photos/1793036/pexels-photo-1793036.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "https://images.pexels.com/photos/3020919/pexels-photo-3020919.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-      ],
-      "inStock": true
-    },
-    {
-      "id": 5,
-      "name": "Premium Plant-Based Protein",
-      "category": "Health",
-      "price": 59.99,
-      "discountPrice": null,
-      "rating": 4.4,
-      "description": "Our premium plant-based protein provides 25g of complete protein per serving. Made from a blend of pea, rice, and hemp proteins with no artificial flavors or sweeteners.",
-      "features": [
-        "25g protein per serving",
-        "Complete amino acid profile",
-        "No artificial flavors or sweeteners",
-        "Easy digestion formula",
-        "30 servings per container"
-      ],
-      "colors": ["Chocolate", "Vanilla", "Unflavored"],
-      "image": "https://images.pexels.com/photos/4397840/pexels-photo-4397840.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "images": [
-        "https://images.pexels.com/photos/4397840/pexels-photo-4397840.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "https://images.pexels.com/photos/4397838/pexels-photo-4397838.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "https://images.pexels.com/photos/4397839/pexels-photo-4397839.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-      ],
-      "inStock": true
-    },
-    {
-      "id": 6,
-      "name": "Minimalist Desk Lamp",
-      "category": "Home",
-      "price": 129.99,
-      "discountPrice": 99.99,
-      "rating": 4.7,
-      "description": "Illuminate your workspace with our minimalist desk lamp. Features adjustable brightness levels, color temperature control, and a sleek design that complements any decor.",
-      "features": [
-        "Adjustable brightness with touch controls",
-        "Color temperature ranging from warm to cool white",
-        "USB charging port built-in",
-        "Flexible arm for precise positioning",
-        "Energy-efficient LED with 50,000 hour lifespan"
-      ],
-      "colors": ["White", "Black", "Brushed Metal"],
-      "image": "https://images.pexels.com/photos/1112598/pexels-photo-1112598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "images": [
-        "https://images.pexels.com/photos/1112598/pexels-photo-1112598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "https://images.pexels.com/photos/1112599/pexels-photo-1112599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "https://images.pexels.com/photos/3637740/pexels-photo-3637740.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-      ],
-      "inStock": true
-    },
-    {
-      "id": 7,
-      "name": "Organic Cotton T-Shirt",
-      "category": "Fashion",
-      "price": 39.99,
-      "discountPrice": 29.99,
-      "rating": 4.5,
-      "description": "Our organic cotton t-shirt combines comfort, sustainability, and style. Made from 100% GOTS-certified organic cotton with a modern fit that flatters all body types.",
-      "features": [
-        "100% GOTS-certified organic cotton",
-        "Pre-shrunk fabric",
-        "Reinforced stitching for durability",
-        "Tagless design for maximum comfort",
-        "Available in sizes XS to XXL"
-      ],
-      "colors": ["White", "Black", "Navy", "Heather Gray"],
-      "image": "https://images.pexels.com/photos/1656684/pexels-photo-1656684.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "images": [
-        "https://images.pexels.com/photos/1656684/pexels-photo-1656684.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "https://images.pexels.com/photos/1656685/pexels-photo-1656685.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "https://images.pexels.com/photos/3755706/pexels-photo-3755706.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-      ],
-      "inStock": true
-    },
-    {
-      "id": 8,
-      "name": "Ultra-Light Travel Backpack",
-      "category": "Travel",
-      "price": 149.99,
-      "discountPrice": 129.99,
-      "rating": 4.8,
-      "description": "Perfect for adventurers, our ultra-light travel backpack weighs just 1.2 lbs while providing 28L of storage. Features water-resistant material, multiple compartments, and ergonomic design.",
-      "features": [
-        "Ultra-lightweight at just 1.2 lbs",
-        "28L capacity with expandable main compartment",
-        "Water-resistant ripstop nylon construction",
-        "Padded laptop sleeve fits up to 15\" laptops",
-        "Ergonomic shoulder straps and back panel"
-      ],
-      "colors": ["Charcoal", "Navy", "Forest Green"],
-      "image": "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "images": [
-        "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "https://images.pexels.com/photos/2905239/pexels-photo-2905239.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "https://images.pexels.com/photos/2905240/pexels-photo-2905240.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-      ],
-      "inStock": true
-    },
-    {
-      "id": 9,
-      "name": "Professional Chef's Knife",
-      "category": "Home",
-      "price": 119.99,
-      "discountPrice": null,
-      "rating": 4.9,
-      "description": "Crafted for culinary excellence, our professional chef's knife features a precision-forged high-carbon stainless steel blade. The ergonomic handle provides perfect balance and control.",
-      "features": [
-        "8-inch high-carbon stainless steel blade",
-        "Full tang construction for perfect balance",
-        "Hand-honed edge at 15° per side",
-        "Ergonomic handle for reduced fatigue",
-        "Includes protective sheath"
-      ],
-      "colors": ["Classic", "Black Edition"],
-      "image": "https://images.pexels.com/photos/3962294/pexels-photo-3962294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "images": [
-        "https://images.pexels.com/photos/3962294/pexels-photo-3962294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "https://images.pexels.com/photos/3962285/pexels-photo-3962285.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "https://images.pexels.com/photos/3962287/pexels-photo-3962287.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-      ],
-      "inStock": true
-    },
-    {
-      "id": 10,
-      "name": "Wireless Charging Pad",
-      "category": "Electronics",
-      "price": 49.99,
-      "discountPrice": 39.99,
-      "rating": 4.4,
-      "description": "Simplify your charging routine with our sleek wireless charging pad. Compatible with all Qi-enabled devices, delivering fast charging in an elegant, minimalist design.",
-      "features": [
-        "Qi wireless charging compatible",
-        "Fast charging up to 15W",
-        "LED charging indicator",
-        "Non-slip surface",
-        "Overcharge protection"
-      ],
-      "colors": ["Black", "White", "Walnut"],
-      "image": "https://images.pexels.com/photos/3945645/pexels-photo-3945645.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "images": [
-        "https://images.pexels.com/photos/3945645/pexels-photo-3945645.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "https://images.pexels.com/photos/3945654/pexels-photo-3945654.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "https://images.pexels.com/photos/4526407/pexels-photo-4526407.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-      ],
-      "inStock": true
-    },
-    {
-      "id": 11,
-      "name": "Stainless Steel Water Bottle",
-      "category": "Health",
-      "price": 34.99,
-      "discountPrice": 29.99,
-      "rating": 4.6,
-      "description": "Stay hydrated in style with our vacuum-insulated stainless steel water bottle. Keeps drinks cold for 24 hours or hot for 12 hours with no condensation or heat transfer.",
-      "features": [
-        "Double-wall vacuum insulation",
-        "24 hours cold, 12 hours hot",
-        "BPA-free and phthalate-free",
-        "Leak-proof lid with carrying handle",
-        "Fits standard cup holders"
-      ],
-      "colors": ["Matte Black", "Stainless Steel", "Ocean Blue", "Forest Green"],
-      "image": "https://images.pexels.com/photos/1188649/pexels-photo-1188649.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "images": [
-        "https://images.pexels.com/photos/1188649/pexels-photo-1188649.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "https://images.pexels.com/photos/1188648/pexels-photo-1188648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "https://images.pexels.com/photos/3768694/pexels-photo-3768694.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-      ],
-      "inStock": true
-    },
-    {
-      "id": 11,
-      "name": "Stainless Steel Water Bottle",
-      "category": "Health",
-      "price": 34.99,
-      "discountPrice": 29.99,
-      "rating": 4.6,
-      "description": "Stay hydrated in style with our vacuum-insulated stainless steel water bottle. Keeps drinks cold for 24 hours or hot for 12 hours with no condensation or heat transfer.",
-      "features": [
-        "Double-wall vacuum insulation",
-        "24 hours cold, 12 hours hot",
-        "BPA-free and phthalate-free",
-        "Leak-proof lid with carrying handle",
-        "Fits standard cup holders"
-      ],
-      "colors": ["Matte Black", "Stainless Steel", "Ocean Blue", "Forest Green"],
-      "image": "https://images.pexels.com/photos/1188649/pexels-photo-1188649.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "images": [
-        "https://images.pexels.com/photos/1188649/pexels-photo-1188649.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "https://images.pexels.com/photos/1188648/pexels-photo-1188648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "https://images.pexels.com/photos/3768694/pexels-photo-3768694.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-      ],
-      "inStock": true
-    },
-    {
-      "id": 12,
-      "name": "Organic Herbal Tea Collection",
-      "category": "Health",
-      "price": 29.99,
-      "discountPrice": null,
-      "rating": 4.7,
-      "description": "Our collection of organic herbal teas features six distinctive blends crafted from ethically sourced ingredients. Each blend is formulated to promote wellness while delivering exceptional flavor.",
-      "features": [
-        "6 organic herbal tea blends",
-        "15 biodegradable tea sachets per blend",
-        "Ethically sourced ingredients",
-        "No artificial flavors or preservatives",
-        "Recyclable packaging"
-      ],
-      "colors": ["Assorted"],
-      "image": "https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "images": [
-        "https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "https://images.pexels.com/photos/230477/pexels-photo-230477.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "https://images.pexels.com/photos/1638280/pexels-photo-1638280.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-      ],
-      "inStock": true
-    }
-  ],
   "categories": [
     "All",
     "Bottle Filling Machine",
@@ -321,8 +9,2285 @@
     "Shrink wrapping Machine",
     "Handling Systems",
     "Robotics automation",
-    "Customised Solutions",
-    "Conveying Solutions",
-    "Ergonomic Solutions"
+    "Conveying Solutions"
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "BFM-40 Automatic Bottle Filling Machine",
+      "category": "Bottle Filling Machine",
+      "rating": 4.7,
+      "description": "High-speed automatic bottle filling machine suitable for mineral water, juices, and liquid products. Features precise volumetric filling with advanced control systems for consistent performance.",
+      "features": [
+        "40 BPM capacity with fully automatic operations",
+        "Filling range: 50ml to 1000ml",
+        "±1% filling accuracy",
+        "Stainless steel 304 construction",
+        "PLC controlled with digital display",
+        "Single phase 220V power supply"
+      ],
+      "image": "/product/BFM15.webp",
+      "images": [
+        "/product/BFM15.webp",
+        "/product/BFM11.webp",
+        "/product/BFM3.webp",
+        "/product/BFM18.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 2,
+      "name": "BFM-60 Semi-Automatic Bottle Filler",
+      "category": "Bottle Filling Machine",
+      "rating": 4.5,
+      "description": "Versatile bottle filling solution for small to medium production requirements. Ideal for oils, ghee, milk, and other liquid products with adjustable filling volumes.",
+      "features": [
+        "60 BPM filling capacity",
+        "4-nozzle filling head design",
+        "Filling range: 25ml to 500ml",
+        "Pneumatic operation with 6 bar air pressure",
+        "Conveyor height adjustable: 780-860mm",
+        "1 year warranty included"
+      ],
+      "image": "/product/BFM10.webp",
+      "images": [
+        "/product/BFM10.webp",
+        "/product/BFM14.webp",
+        "/product/BFM4.webp",
+        "/product/BFM1.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 3,
+      "name": "BFM-90 Rotary Bottle Filling System",
+      "category": "Bottle Filling Machine",
+      "rating": 4.8,
+      "description": "High-capacity rotary filling machine designed for continuous production lines. Perfect for packaged drinking water and beverage industries with consistent quality output.",
+      "features": [
+        "90 BPM production capacity",
+        "Rotary mechanical driven type",
+        "Bottle diameter: up to 90mm",
+        "Bottle height: up to 325mm",
+        "3-phase electrical system",
+        "SS 316 & SS 304 material grade"
+      ],
+      "image": "/product/BFM18.webp",
+      "images": [
+        "/product/BFM18.webp",
+        "/product/BFM20.webp",
+        "/product/BFM11.webp",
+        "/product/BFM6.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 4,
+      "name": "BFM-120 High-Speed Filling Machine",
+      "category": "Bottle Filling Machine",
+      "rating": 4.9,
+      "description": "Premium high-speed bottle filling machine with advanced automation features. Designed for large-scale production with minimal operator intervention and maximum efficiency.",
+      "features": [
+        "120 BPM ultra-high speed operation",
+        "30-head filling configuration",
+        "Filling range: 200ml to 2 liters",
+        "Integrated rinsing and capping system",
+        "10 HP motor with 440V power",
+        "2000 kg robust construction"
+      ],
+      "image": "/product/BFM3.webp",
+      "images": [
+        "/product/BFM3.webp",
+        "/product/BFM4.webp",
+        "/product/BFM11.webp",
+        "/product/BFM2.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 5,
+      "name": "BFM-24 Compact Bottle Filling Plant",
+      "category": "Bottle Filling Machine",
+      "rating": 4.4,
+      "description": "Compact and economical bottle filling solution for small enterprises. Space-efficient design with reliable performance for various liquid products.",
+      "features": [
+        "24 BPM production capacity",
+        "4x4 feet machine dimensions",
+        "1 HP main motor with gear box",
+        "Air conveyor system included",
+        "16 feet SS conveyor",
+        "Suitable for 500ml-2000ml bottles"
+      ],
+      "image": "/product/BFM10.webp",
+      "images": [
+        "/product/BFM10.webp",
+        "/product/BFM13.webp",
+        "/product/BFM19.webp",
+        "/product/BFM1.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 6,
+      "name": "BFM-80 Multi-Product Liquid Filler",
+      "category": "Bottle Filling Machine",
+      "rating": 4.6,
+      "description": "Versatile liquid filling machine suitable for pharmaceutical, food, cosmetic, and chemical industries. Features quick changeover capabilities for different products.",
+      "features": [
+        "80 bottles per minute capacity",
+        "4-head syringe filling system",
+        "Fill accuracy: ±1% with single dose",
+        "Quick change parts for different volumes",
+        "Left to right working direction",
+        "cGMP compliant construction"
+      ],
+      "image": "/product/BFM4.webp",
+      "images": [
+        "/product/BFM4.webp",
+        "/product/BFM14.webp",
+        "/product/BFM10.webp",
+        "/product/BFM9.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 7,
+      "name": "BFM-240 Industrial Bottle Filler",
+      "category": "Bottle Filling Machine",
+      "rating": 4.7,
+      "description": "Heavy-duty industrial bottle filling machine for maximum production output. Built for continuous operation in demanding manufacturing environments.",
+      "features": [
+        "240 bottles per minute capacity",
+        "Fully automatic grade operation",
+        "Wide filling range: 50ml to 1 liter",
+        "Servo controlled filling volume",
+        "Integrated quality control systems",
+        "Remote monitoring capabilities"
+      ],
+      "image": "/product/BFM4.webp",
+      "images": [
+        "/product/BFM4.webp",
+        "/product/BFM14.webp",
+        "/product/BFM19.webp",
+        "/product/BFM17.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 8,
+      "name": "BFM-Special Viscous Liquid Filler",
+      "category": "Bottle Filling Machine",
+      "rating": 4.5,
+      "description": "Specialized filling machine for thick and viscous liquids like oils, syrups, and creams. Features gear pump technology for accurate dispensing of high-viscosity products.",
+      "features": [
+        "Handles thick & thin viscosity products",
+        "Gear pump filling mechanism",
+        "Temperature controlled filling",
+        "Easy cleanup design",
+        "Variable speed control",
+        "Anti-drip nozzle technology"
+      ],
+      "image": "/product/BFM12.webp",
+      "images": [
+        "/product/BFM12.webp",
+        "/product/BFM16.webp",
+        "/product/BFM11.webp",
+        "/product/BFM2.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 9,
+      "name": "BFM-Pharma Grade Bottle Filler",
+      "category": "Bottle Filling Machine",
+      "rating": 4.8,
+      "description": "GMP compliant bottle filling machine designed specifically for pharmaceutical applications. Features sterile filling environment and validation documentation.",
+      "features": [
+        "GMP compliant design",
+        "Sterile filling chamber",
+        "HEPA filtered air supply",
+        "CIP/SIP cleaning systems",
+        "21 CFR Part 11 compliance",
+        "Validation documentation included"
+      ],
+      "image": "/product/BFM20.webp",
+      "images": [
+        "/product/BFM20.webp",
+        "/product/BFM18.webp",
+        "/product/BFM7.webp",
+        "/product/BFM14.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 10,
+      "name": "BFM-Eco Economy Bottle Filler",
+      "category": "Bottle Filling Machine",
+      "rating": 4.3,
+      "description": "Cost-effective bottle filling solution for startups and small businesses. Provides reliable performance at an affordable price point without compromising quality.",
+      "features": [
+        "Economic pricing model",
+        "30 BPM filling capacity",
+        "Manual to semi-automatic operation",
+        "Low power consumption",
+        "Easy maintenance design",
+        "Suitable for multiple liquid types"
+      ],
+      "image": "/product/BFM8.webp",
+      "images": [
+        "/product/BFM8.webp",
+        "/product/BFM4.webp",
+        "/product/BFM5.webp",
+        "/product/BFM13.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 11,
+      "name": "BFM-Custom Bottle Filling Solution",
+      "category": "Bottle Filling Machine",
+      "rating": 4.6,
+      "description": "Customizable bottle filling machine designed to meet specific production requirements. Engineering team works closely with clients to deliver tailored solutions.",
+      "features": [
+        "Fully customizable design",
+        "Client-specific requirements",
+        "Scalable capacity options",
+        "Integration with existing lines",
+        "Comprehensive training included",
+        "24/7 technical support"
+      ],
+      "image": "/product/BFM16.webp",
+      "images": [
+        "/product/BFM16.webp",
+        "/product/BFM14.webp",
+        "/product/BFM11.webp",
+        "/product/BFM2.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 12,
+      "name": "CFM-32 Automatic Cup Filling Machine",
+      "category": "Cup filling Machine",
+      "rating": 4.6,
+      "description": "High-precision cup filling machine for dairy products, beverages, and food items. Features servo-controlled filling with excellent accuracy and hygiene standards.",
+      "features": [
+        "32 cups per minute capacity",
+        "Servo motor controlled filling",
+        "240V power supply, 50Hz",
+        "Automatic cup dispensing system",
+        "Foil sealing integrated",
+        "Food grade stainless steel construction"
+      ],
+      "image": "/product/CFM10.webp",
+      "images": [
+        "/product/CFM10.webp",
+        "/product/CFM20.webp",
+        "/product/CFM5.webp",
+        "/product/CFM7.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 13,
+      "name": "CFM-44 Batch Cup Filling System",
+      "category": "Cup filling Machine",
+      "rating": 4.5,
+      "description": "Batch processing cup filling machine ideal for yogurt, ice cream, and liquid food products. Designed for medium-scale production with consistent quality output.",
+      "features": [
+        "44 cups per batch processing",
+        "Automatic grade operation",
+        "Industrial application suitable",
+        "3KW power consumption",
+        "Cup filling and sealing combo",
+        "Easy changeover for different cup sizes"
+      ],
+      "image": "/product/CFM1.webp",
+      "images": [
+        "/product/CFM1.webp",
+        "/product/CFM4.webp",
+        "/product/CFM12.webp",
+        "/product/CFM7.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 14,
+      "name": "CFM-600 High-Speed Cup Filler",
+      "category": "Cup filling Machine",
+      "rating": 4.8,
+      "description": "Ultra-high-speed cup filling machine for large-scale production facilities. Features advanced automation with multiple filling stations for maximum throughput.",
+      "features": [
+        "600-900 cups per minute capacity",
+        "Automatic paste filling capability",
+        "Multi-station filling design",
+        "Integrated quality control",
+        "High-speed conveyor system",
+        "PLC controlled operations"
+      ],
+      "image": "/product/CFM11.webp",
+      "images": [
+        "/product/CFM11.webp",
+        "/product/CFM18.webp",
+        "/product/CFM5.webp",
+        "/product/CFM1.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 15,
+      "name": "CFM-Digital Particle Cup Filler",
+      "category": "Cup filling Machine",
+      "rating": 4.4,
+      "description": "Digital control particle filling machine for dry products like tea, spices, and granular materials. Microcomputer-controlled for precise dispensing.",
+      "features": [
+        "1000-2000 pouches per hour",
+        "Microcomputer control technology",
+        "15W low power consumption",
+        "Stainless steel contact parts",
+        "Double shock absorption structure",
+        "Adjustable packing speed"
+      ],
+      "image": "/product/CFM8.webp",
+      "images": [
+        "/product/CFM8.webp",
+        "/product/CFM16.webp",
+        "/product/CFM9.webp",
+        "/product/CFM17.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 16,
+      "name": "CFM-2000 Rotary Cup Filling Line",
+      "category": "Cup filling Machine",
+      "rating": 4.7,
+      "description": "Advanced rotary cup filling machine with integrated sealing and cutting system. Ideal for high-volume production of filled and sealed cups.",
+      "features": [
+        "2000-3000 pouches per hour",
+        "Rotary filling mechanism",
+        "Foil cutting & sealing from roll",
+        "Automatic cup feeding system",
+        "Continuous operation capability",
+        "Quality inspection integrated"
+      ],
+      "image": "/product/CFM14.webp",
+      "images": [
+        "/product/CFM14.webp",
+        "/product/CFM10.webp",
+        "/product/CFM16.webp",
+        "/product/CFM20.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 17,
+      "name": "CFM-Multi Format Cup Filler",
+      "category": "Cup filling Machine",
+      "rating": 4.5,
+      "description": "Versatile cup filling machine capable of handling multiple cup formats and sizes. Features quick changeover system for different product requirements.",
+      "features": [
+        "Multiple cup size compatibility",
+        "Quick format changeover",
+        "Glass and plastic cup handling",
+        "Variable speed control",
+        "Automatic level detection",
+        "Easy maintenance access"
+      ],
+      "image": "/product/CFM17.webp",
+      "images": [
+        "/product/CFM17.webp",
+        "/product/CFM8.webp",
+        "/product/CFM20.webp",
+        "/product/CFM7.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 18,
+      "name": "CFM-Dairy Special Cup Filler",
+      "category": "Cup filling Machine",
+      "rating": 4.6,
+      "description": "Specialized cup filling machine for dairy products including milk, yogurt, and cream. Features temperature-controlled filling and hygienic design.",
+      "features": [
+        "Temperature controlled filling",
+        "Hygienic design for dairy products",
+        "CIP cleaning system",
+        "Cold chain compatible",
+        "Spillage prevention system",
+        "HACCP compliant construction"
+      ],
+      "image": "/product/CFM9.webp",
+      "images": [
+        "/product/CFM9.webp",
+        "/product/CFM2.webp",
+        "/product/CFM10.webp",
+        "/product/CFM12.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 19,
+      "name": "CFM-Semi Auto Cup Filler",
+      "category": "Cup filling Machine",
+      "rating": 4.3,
+      "description": "Semi-automatic cup filling machine ideal for small to medium enterprises. Provides cost-effective solution with manual cup placement and automatic filling.",
+      "features": [
+        "Semi-automatic operation",
+        "Manual cup placement",
+        "Automatic filling cycle",
+        "Single phase power supply",
+        "Compact footprint design",
+        "User-friendly controls"
+      ],
+      "image": "/product/CFM10.webp",
+      "images": [
+        "/product/CFM10.webp",
+        "/product/CFM17.webp",
+        "/product/CFM15.webp",
+        "/product/CFM19.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 20,
+      "name": "CFM-Beverage Cup Filling Station",
+      "category": "Cup filling Machine",
+      "rating": 4.7,
+      "description": "Dedicated cup filling machine for beverage industry including juices, soft drinks, and flavored drinks. Features carbonation-friendly filling technology.",
+      "features": [
+        "Carbonation compatible filling",
+        "Foam control technology",
+        "Multi-flavor capability",
+        "Counter pressure filling",
+        "Nitrogen flushing option",
+        "Beverage industry certified"
+      ],
+      "image": "/product/CFM16.webp",
+      "images": [
+        "/product/CFM16.webp",
+        "/product/CFM20.webp",
+        "/product/CFM7.webp",
+        "/product/CFM18.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 21,
+      "name": "CFM-Aseptic Cup Filling System",
+      "category": "Cup filling Machine",
+      "rating": 4.9,
+      "description": "Aseptic cup filling machine for sterile products requiring extended shelf life without refrigeration. Features sterile filling environment and validation.",
+      "features": [
+        "Aseptic filling technology",
+        "Sterile environment maintenance",
+        "Extended shelf life capability",
+        "Steam sterilization system",
+        "Sterile air filtration",
+        "Validation documentation"
+      ],
+      "image": "/product/CFM6.webp",
+      "images": [
+        "/product/CFM6.webp",
+        "/product/CFM3.webp",
+        "/product/CFM13.webp",
+        "/product/CFM9.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 22,
+      "name": "CFM-Eco Friendly Cup Filler",
+      "category": "Cup filling Machine",
+      "rating": 4.4,
+      "description": "Environmentally conscious cup filling machine designed for biodegradable and recyclable cups. Features energy-efficient operation and minimal waste generation.",
+      "features": [
+        "Biodegradable cup compatible",
+        "Energy efficient operation",
+        "Minimal waste generation",
+        "Sustainable packaging focus",
+        "Low carbon footprint",
+        "Eco-certification ready"
+      ],
+      "image": "/product/CFM20.webp",
+      "images": [
+        "/product/CFM20.webp",
+        "/product/CFM9.webp",
+        "/product/CFM6.webp",
+        "/product/CFM15.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 23,
+      "name": "VPM-260 Table Top Vacuum Sealer",
+      "category": "Vaccum Packaging Machine",
+      "rating": 4.5,
+      "description": "Compact table-top vacuum packaging machine ideal for small businesses and laboratories. Features precise vacuum control and reliable sealing performance.",
+      "features": [
+        "260mm sealing strip size",
+        "0.37KW vacuum pump power",
+        "1.33 kPa lowest absolute pressure",
+        "385x280x90mm vacuum chamber",
+        "Stainless steel construction",
+        "Single or double heater options"
+      ],
+      "image": "/product/VPM7.webp",
+      "images": [
+        "/product/VPM7.webp",
+        "/product/VPM6.webp",
+        "/product/VPM4.webp",
+        "/product/VPM19.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 24,
+      "name": "VPM-400 Industrial Vacuum Chamber",
+      "category": "Vaccum Packaging Machine",
+      "rating": 4.7,
+      "description": "Industrial-grade vacuum chamber machine for medium to high-volume packaging. Features dual sealing bars and enhanced vacuum pump for faster cycles.",
+      "features": [
+        "400x10mm sealing strip",
+        "0.75KW vacuum pump",
+        "440x420x130mm chamber volume",
+        "20m³/h pump exhaustment",
+        "Dual heater configuration",
+        "110-220V/50-60Hz power supply"
+      ],
+      "image": "/product/VPM20.webp",
+      "images": [
+        "/product/VPM20.webp",
+        "/product/VPM16.webp",
+        "/product/VPM13.webp",
+        "/product/VPM11.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 25,
+      "name": "VPM-600 Heavy Duty Vacuum Sealer",
+      "category": "Vaccum Packaging Machine",
+      "rating": 4.8,
+      "description": "Heavy-duty vacuum packaging machine designed for continuous industrial operation. Features large chamber capacity and powerful vacuum system.",
+      "features": [
+        "650x595x150mm large chamber",
+        "1.5KW high-power vacuum pump",
+        "600x10mm sealing capacity",
+        "40m³/h pump exhaustment",
+        "Three-phase 415V power",
+        "160kg robust construction"
+      ],
+      "image": "/product/VPM8.webp",
+      "images": [
+        "/product/VPM8.webp",
+        "/product/VPM11.webp",
+        "/product/VPM2.webp",
+        "/product/VPM6.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 26,
+      "name": "VPM-Double Chamber Vacuum System",
+      "category": "Vaccum Packaging Machine",
+      "rating": 4.6,
+      "description": "Dual chamber vacuum packaging machine for increased productivity. While one chamber is sealing, the other can be loaded, reducing cycle times significantly.",
+      "features": [
+        "Double chamber design",
+        "Continuous operation capability",
+        "2.25KW pump power",
+        "Independent chamber controls",
+        "500x10mm sealing strips",
+        "250kg industrial build"
+      ],
+      "image": "/product/VPM5.webp",
+      "images": [
+        "/product/VPM5.webp",
+        "/product/VPM2.webp",
+        "/product/VPM12.webp",
+        "/product/VPM20.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 27,
+      "name": "VPM-Food Grade Vacuum Sealer",
+      "category": "Vaccum Packaging Machine",
+      "rating": 4.7,
+      "description": "Food-grade vacuum packaging machine with HACCP compliance. Specially designed for food preservation with enhanced hygiene features.",
+      "features": [
+        "HACCP compliant design",
+        "Food grade materials",
+        "Easy cleaning functionality",
+        "Temperature controlled sealing",
+        "Moisture protection system",
+        "FDA approved components"
+      ],
+      "image": "/product/VPM13.webp",
+      "images": [
+        "/product/VPM13.webp",
+        "/product/VPM14.webp",
+        "/product/VPM8.webp",
+        "/product/VPM10.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 28,
+      "name": "VPM-Medical Grade Vacuum Sealer",
+      "category": "Vaccum Packaging Machine",
+      "rating": 4.9,
+      "description": "Medical-grade vacuum packaging machine for sterilization-compatible packaging. Features validation capability and pharmaceutical industry compliance.",
+      "features": [
+        "Medical grade validation",
+        "Sterilization compatible",
+        "Clean room ready design",
+        "GMP compliant construction",
+        "Sterile packaging capability",
+        "Pharmaceutical approved"
+      ],
+      "image": "/product/VPM1.webp",
+      "images": [
+        "/product/VPM1.webp",
+        "/product/VPM19.webp",
+        "/product/VPM8.webp",
+        "/product/VPM9.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 29,
+      "name": "VPM-Semi Auto Vacuum Packager",
+      "category": "Vaccum Packaging Machine",
+      "rating": 4.4,
+      "description": "Semi-automatic vacuum packaging machine ideal for small to medium enterprises. Provides cost-effective vacuum packaging with manual product loading.",
+      "features": [
+        "Semi-automatic operation",
+        "15-40 second machine cycle",
+        "Digital timer system",
+        "Transparent lid design",
+        "Custom sealing lengths available",
+        "Optional gas flushing feature"
+      ],
+      "image": "/product/VPM20.webp",
+      "images": [
+        "/product/VPM20.webp",
+        "/product/VPM9.webp",
+        "/product/VPM12.webp",
+        "/product/VPM6.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 30,
+      "name": "VPM-Vertical Vacuum Sealer",
+      "category": "Vaccum Packaging Machine",
+      "rating": 4.5,
+      "description": "Vertical vacuum packaging machine designed for liquid and semi-liquid products. Features specialized design to handle challenging packaging applications.",
+      "features": [
+        "Vertical sealing orientation",
+        "Liquid product compatible",
+        "4-sealing bar configuration",
+        "27-inch sealing length",
+        "Adjustable chamber height",
+        "Anti-spillage design"
+      ],
+      "image": "/product/VPM3.webp",
+      "images": [
+        "/product/VPM3.webp",
+        "/product/VPM1.webp",
+        "/product/VPM4.webp",
+        "/product/VPM14.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 31,
+      "name": "VPM-Continuous Band Vacuum Sealer",
+      "category": "Vaccum Packaging Machine",
+      "rating": 4.6,
+      "description": "Continuous band vacuum sealer for high-volume production lines. Features conveyor-fed operation and automatic sealing without manual intervention.",
+      "features": [
+        "Continuous band operation",
+        "Conveyor fed system",
+        "High volume capability",
+        "Automatic sealing cycle",
+        "Variable speed control",
+        "Integration ready design"
+      ],
+      "image": "/product/VPM4.webp",
+      "images": [
+        "/product/VPM4.webp",
+        "/product/VPM17.webp",
+        "/product/VPM13.webp",
+        "/product/VPM20.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 32,
+      "name": "VPM-Gas Flush Vacuum Sealer",
+      "category": "Vaccum Packaging Machine",
+      "rating": 4.7,
+      "description": "Advanced vacuum packaging machine with gas flushing capability. Ideal for products requiring modified atmosphere packaging for extended shelf life.",
+      "features": [
+        "Gas flushing capability",
+        "Modified atmosphere packaging",
+        "Multi-gas compatibility",
+        "Precise gas mixture control",
+        "Extended shelf life packaging",
+        "Food preservation optimized"
+      ],
+      "image": "/product/VPM18.webp",
+      "images": [
+        "/product/VPM18.webp",
+        "/product/VPM15.webp",
+        "/product/VPM6.webp",
+        "/product/VPM10.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 33,
+      "name": "VPM-Thermoforming Vacuum Packager",
+      "category": "Vaccum Packaging Machine",
+      "rating": 4.8,
+      "description": "Thermoforming vacuum packaging machine that creates custom-fitted packages from film rolls. Ideal for irregular-shaped products and portion control.",
+      "features": [
+        "Thermoforming capability",
+        "Custom package formation",
+        "Film roll compatibility",
+        "Irregular shape handling",
+        "Portion control packaging",
+        "Reduced material waste"
+      ],
+      "image": "/product/VPM16.webp",
+      "images": [
+        "/product/VPM16.webp",
+        "/product/VPM15.webp",
+        "/product/VPM17.webp",
+        "/product/VPM5.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 34,
+      "name": "LM-100 Automatic Round Bottle Labeler",
+      "category": "Lebeling Machine",
+      "rating": 4.6,
+      "description": "High-precision automatic labeling machine for round bottles and containers. Features servo-controlled label dispensing for consistent application and minimal waste.",
+      "features": [
+        "50-70 products per minute speed",
+        "Round bottle specialization",
+        "±1-2mm accuracy error",
+        "Servo/stepper motor dispensing",
+        "PLC controlled operations",
+        "1.5KW electrical load"
+      ],
+      "image": "/product/LM2.webp",
+      "images": [
+        "/product/LM2.webp",
+        "/product/LM5.webp",
+        "/product/LM14.webp",
+        "/product/LM15.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 35,
+      "name": "LM-200 Wrap-Around Labeling System",
+      "category": "Lebeling Machine",
+      "rating": 4.7,
+      "description": "Advanced wrap-around labeling machine ensuring 100% label coverage around bottle circumference. Features star wheel mechanism for precise positioning.",
+      "features": [
+        "100% wrap-around capability",
+        "Star wheel positioning system",
+        "No skew label application",
+        "Synchronization control",
+        "Variable speed operation",
+        "Touch screen interface"
+      ],
+      "image": "/product/LM7.webp",
+      "images": [
+        "/product/LM7.webp",
+        "/product/LM3.webp",
+        "/product/LM13.webp",
+        "/product/LM6.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 36,
+      "name": "LM-300T High-Speed Labeling Machine",
+      "category": "Lebeling Machine",
+      "rating": 4.8,
+      "description": "High-speed automatic labeling machine for medium to high production volumes. Capable of applying single or dual labels with exceptional accuracy.",
+      "features": [
+        "Up to 400 products per minute",
+        "Single or dual label application",
+        "Round and square container compatibility",
+        "Integrated into production lines",
+        "SCADA system compatible",
+        "Camera inspection system"
+      ],
+      "image": "/product/LM17.webp",
+      "images": [
+        "/product/LM17.webp",
+        "/product/LM9.webp",
+        "/product/LM10.webp",
+        "/product/LM13.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 37,
+      "name": "LM-Semi Automatic Sticker Labeler",
+      "category": "Lebeling Machine",
+      "rating": 4.4,
+      "description": "Semi-automatic labeling machine perfect for small to medium businesses. Combines manual product placement with automatic label application.",
+      "features": [
+        "Semi-automatic operation",
+        "Compact and lightweight design",
+        "Dual labeling capability",
+        "Front and back label application",
+        "No skewing guarantee",
+        "Easy setup and operation"
+      ],
+      "image": "/product/LM10.webp",
+      "images": [
+        "/product/LM10.webp",
+        "/product/LM1.webp",
+        "/product/LM18.webp",
+        "/product/LM20.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 38,
+      "name": "LM-Security Tamper Evident Labeler",
+      "category": "Lebeling Machine",
+      "rating": 4.9,
+      "description": "Specialized labeling machine for tamper-evident security seals. Features dual dispensers for different label sizes and tamper-proof application technology.",
+      "features": [
+        "Tamper-evident seal application",
+        "Dual independent dispensers",
+        "Security-focused design",
+        "Variable label sizes",
+        "Mono carton compatibility",
+        "Authentication features"
+      ],
+      "image": "/product/LM15.webp",
+      "images": [
+        "/product/LM15.webp",
+        "/product/LM2.webp",
+        "/product/LM10.webp",
+        "/product/LM4.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 39,
+      "name": "LM-Tube Labeling Specialist",
+      "category": "Lebeling Machine",
+      "rating": 4.5,
+      "description": "Dedicated tube labeling machine with 12-spindle mandrel system. Designed for pharmaceutical, cosmetic, and food tube applications.",
+      "features": [
+        "12-spindle mandrel system",
+        "Clockwise rotating indexing wheel",
+        "Microprocessor controlled",
+        "Consistent label placement",
+        "Pharmaceutical grade accuracy",
+        "Quick changeover capability"
+      ],
+      "image": "/product/LM11.webp",
+      "images": [
+        "/product/LM11.webp",
+        "/product/LM12.webp",
+        "/product/LM5.webp",
+        "/product/LM8.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 40,
+      "name": "LM-Hologram Applicator System",
+      "category": "Lebeling Machine",
+      "rating": 4.6,
+      "description": "Advanced hologram and security label applicator for anti-counterfeiting applications. Features precision placement and authentication verification.",
+      "features": [
+        "Hologram application capability",
+        "Anti-counterfeiting focus",
+        "Up to 400 products per minute",
+        "L or U shape folding",
+        "Pressing and folding device",
+        "Stand-alone or line integration"
+      ],
+      "image": "/product/LM12.webp",
+      "images": [
+        "/product/LM12.webp",
+        "/product/LM1.webp",
+        "/product/LM19.webp",
+        "/product/LM8.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 41,
+      "name": "LM-Multi-Surface Labeling Machine",
+      "category": "Lebeling Machine",
+      "rating": 4.5,
+      "description": "Versatile labeling machine capable of applying labels to multiple surfaces including top, bottom, and sides. Ideal for complex packaging requirements.",
+      "features": [
+        "Multi-surface capability",
+        "Top, bottom, side labeling",
+        "Complex packaging handling",
+        "Flexible configuration",
+        "Quick format changes",
+        "Universal container compatibility"
+      ],
+      "image": "/product/LM17.webp",
+      "images": [
+        "/product/LM17.webp",
+        "/product/LM5.webp",
+        "/product/LM12.webp",
+        "/product/LM9.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 42,
+      "name": "LM-Print & Apply Labeling System",
+      "category": "Lebeling Machine",
+      "rating": 4.7,
+      "description": "Integrated print and apply labeling system for variable data printing. Combines real-time printing with precise label application.",
+      "features": [
+        "Integrated printing capability",
+        "Variable data printing",
+        "Real-time label generation",
+        "Database connectivity",
+        "Barcode and QR code printing",
+        "Traceability compliance"
+      ],
+      "image": "/product/LM14.webp",
+      "images": [
+        "/product/LM14.webp",
+        "/product/LM7.webp",
+        "/product/LM15.webp",
+        "/product/LM1.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 43,
+      "name": "LM-Pharmaceutical Labeling Station",
+      "category": "Lebeling Machine",
+      "rating": 4.8,
+      "description": "GMP-compliant labeling machine for pharmaceutical applications. Features validation documentation and 21 CFR Part 11 compliance for regulatory requirements.",
+      "features": [
+        "GMP compliant design",
+        "21 CFR Part 11 compliance",
+        "Pharmaceutical validation",
+        "Clean room compatible",
+        "Audit trail capabilities",
+        "Serialization ready"
+      ],
+      "image": "/product/LM3.webp",
+      "images": [
+        "/product/LM3.webp",
+        "/product/LM10.webp",
+        "/product/LM15.webp",
+        "/product/LM7.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 44,
+      "name": "LM-Eco Sustainable Labeler",
+      "category": "Lebeling Machine",
+      "rating": 4.4,
+      "description": "Environmentally conscious labeling machine designed for sustainable packaging. Features energy-efficient operation and recyclable label compatibility.",
+      "features": [
+        "Eco-friendly design",
+        "Energy efficient operation",
+        "Recyclable label compatible",
+        "Minimal waste generation",
+        "Sustainable packaging focus",
+        "Carbon footprint optimization"
+      ],
+      "image": "/product/LM14.webp",
+      "images": [
+        "/product/LM14.webp",
+        "/product/LM7.webp",
+        "/product/LM3.webp",
+        "/product/LM1.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 45,
+      "name": "GJFM-600 Automatic Ghee Jar Filler",
+      "category": "Ghee Jar filling Machine",
+      "rating": 4.7,
+      "description": "Fully automatic ghee jar filling machine with piston-based dosing system. Designed specifically for viscous products like ghee, oil, and butter.",
+      "features": [
+        "600 jars per hour capacity",
+        "Piston-based dosing system",
+        "Fill range: 200ml-1000ml",
+        "Three phase electrical system",
+        "Stainless steel construction",
+        "3KW power consumption"
+      ],
+      "image": "/product/GJFM2.webp",
+      "images": [
+        "/product/GJFM2.webp",
+        "/product/GJFM6.webp",
+        "/product/GJFM13.webp",
+        "/product/GJFM20.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 46,
+      "name": "GJFM-1800 High-Speed Ghee Filler",
+      "category": "Ghee Jar filling Machine",
+      "rating": 4.8,
+      "description": "High-speed automatic ghee filling machine for pharmaceutical and dairy industries. Features precise dosing and temperature-controlled filling.",
+      "features": [
+        "1800 jars per hour capacity",
+        "4-head filling configuration",
+        "Fill range: 20ml-100ml",
+        "Temperature controlled filling",
+        "Pharmaceutical grade accuracy",
+        "6 bar operating pressure"
+      ],
+      "image": "/product/GJFM16.webp",
+      "images": [
+        "/product/GJFM16.webp",
+        "/product/GJFM1.webp",
+        "/product/GJFM8.webp",
+        "/product/GJFM7.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 47,
+      "name": "GJFM-4Head Gear Pump System",
+      "category": "Ghee Jar filling Machine",
+      "rating": 4.6,
+      "description": "Four-head gear pump ghee filling machine for viscous liquids. Features servo-controlled filling volume and easy cleaning design for food grade applications.",
+      "features": [
+        "4-head gear pump system",
+        "Servo-controlled filling",
+        "15-25 bottles per minute",
+        "50-1000ml filling volume",
+        "380V/220V power options",
+        "Food grade stainless steel"
+      ],
+      "image": "/product/GJFM18.webp",
+      "images": [
+        "/product/GJFM18.webp",
+        "/product/GJFM12.webp",
+        "/product/GJFM1.webp",
+        "/product/GJFM13.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 48,
+      "name": "GJFM-Complete Ghee Filling Line",
+      "category": "Ghee Jar filling Machine",
+      "rating": 4.9,
+      "description": "Complete ghee filling and packaging line including bottle cleaning, filling, capping, sealing, and labeling. Integrated solution for dairy industries.",
+      "features": [
+        "Complete integrated line",
+        "200 bottles per minute speed",
+        "Bottle cleaning included",
+        "Induction cap sealing",
+        "Shrink sleeve labeling",
+        "End-of-line packaging"
+      ],
+      "image": "/product/GJFM11.webp",
+      "images": [
+        "/product/GJFM11.webp",
+        "/product/GJFM17.webp",
+        "/product/GJFM20.webp",
+        "/product/GJFM2.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 49,
+      "name": "GJFM-Large Volume Ghee Filler",
+      "category": "Ghee Jar filling Machine",
+      "rating": 4.5,
+      "description": "Large volume ghee filling machine for 5kg and 15kg containers. Features heavy-duty construction and specialized pumping systems for bulk filling.",
+      "features": [
+        "5kg and 15kg filling capacity",
+        "Heavy-duty construction",
+        "30 containers per minute",
+        "Specialized pumping systems",
+        "Bulk filling optimization",
+        "Industrial grade components"
+      ],
+      "image": "/product/GJFM16.webp",
+      "images": [
+        "/product/GJFM16.webp",
+        "/product/GJFM7.webp",
+        "/product/GJFM2.webp",
+        "/product/GJFM11.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 50,
+      "name": "GJFM-Multi-Product Viscous Filler",
+      "category": "Ghee Jar filling Machine",
+      "rating": 4.6,
+      "description": "Versatile filling machine for multiple viscous products including ghee, butter, honey, and cooking oils. Features quick changeover capabilities.",
+      "features": [
+        "Multi-product compatibility",
+        "Viscous liquid specialization",
+        "Quick changeover system",
+        "Temperature control options",
+        "Hygienic design",
+        "CIP cleaning capability"
+      ],
+      "image": "/product/GJFM8.webp",
+      "images": [
+        "/product/GJFM8.webp",
+        "/product/GJFM9.webp",
+        "/product/GJFM18.webp",
+        "/product/GJFM1.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 51,
+      "name": "GJFM-PET Jar Ghee Filling System",
+      "category": "Ghee Jar filling Machine",
+      "rating": 4.4,
+      "description": "Specialized filling system for PET jars and containers. Features gentle handling to prevent container damage and precise filling for various jar sizes.",
+      "features": [
+        "PET jar specialization",
+        "Gentle container handling",
+        "Various jar size compatibility",
+        "Damage prevention features",
+        "Lightweight container handling",
+        "Cost-effective operation"
+      ],
+      "image": "/product/GJFM14.webp",
+      "images": [
+        "/product/GJFM14.webp",
+        "/product/GJFM10.webp",
+        "/product/GJFM4.webp",
+        "/product/GJFM7.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 52,
+      "name": "GJFM-Glass Jar Filling Station",
+      "category": "Ghee Jar filling Machine",
+      "rating": 4.7,
+      "description": "Premium glass jar filling machine for high-end ghee products. Features careful handling systems and temperature-controlled filling for glass containers.",
+      "features": [
+        "Glass jar specialization",
+        "Premium product handling",
+        "Temperature controlled filling",
+        "Careful handling systems",
+        "Breakage prevention design",
+        "Quality preservation focus"
+      ],
+      "image": "/product/GJFM19.webp",
+      "images": [
+        "/product/GJFM19.webp",
+        "/product/GJFM8.webp",
+        "/product/GJFM9.webp",
+        "/product/GJFM18.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 53,
+      "name": "GJFM-Organic Ghee Filling System",
+      "category": "Ghee Jar filling Machine",
+      "rating": 4.8,
+      "description": "Organic-certified ghee filling machine designed for organic and premium dairy products. Features validation for organic compliance and traceability.",
+      "features": [
+        "Organic certification compatible",
+        "Premium dairy focus",
+        "Traceability systems",
+        "Organic compliance validation",
+        "Contamination prevention",
+        "Premium quality assurance"
+      ],
+      "image": "/product/GJFM15.webp",
+      "images": [
+        "/product/GJFM15.webp",
+        "/product/GJFM3.webp",
+        "/product/GJFM7.webp",
+        "/product/GJFM11.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 54,
+      "name": "GJFM-Semi-Automatic Ghee Filler",
+      "category": "Ghee Jar filling Machine",
+      "rating": 4.3,
+      "description": "Cost-effective semi-automatic ghee filling machine for small-scale dairy operations. Provides manual jar placement with automatic filling cycles.",
+      "features": [
+        "Semi-automatic operation",
+        "Cost-effective solution",
+        "Manual jar placement",
+        "Automatic filling cycles",
+        "Small-scale friendly",
+        "Easy operation and maintenance"
+      ],
+      "image": "/product/GJFM3.webp",
+      "images": [
+        "/product/GJFM3.webp",
+        "/product/GJFM14.webp",
+        "/product/GJFM5.webp",
+        "/product/GJFM11.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 55,
+      "name": "GJFM-Export Quality Ghee Filler",
+      "category": "Ghee Jar filling Machine",
+      "rating": 4.9,
+      "description": "Export-quality ghee filling machine meeting international standards. Features comprehensive documentation and compliance with global food safety regulations.",
+      "features": [
+        "International standards compliance",
+        "Export quality construction",
+        "Global food safety regulations",
+        "Comprehensive documentation",
+        "CE marking available",
+        "International warranty support"
+      ],
+      "image": "/product/GJFM12.webp",
+      "images": [
+        "/product/GJFM12.webp",
+        "/product/GJFM6.webp",
+        "/product/GJFM18.webp",
+        "/product/GJFM16.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 56,
+      "name": "SWM-600 Bottle Shrink Wrapping System",
+      "category": "Shrink wrapping Machine",
+      "rating": 4.6,
+      "description": "Automatic shrink wrapping machine designed for bottle grouping and bundling. Features adjustable chamber size and efficient heat tunnel for perfect shrinkage.",
+      "features": [
+        "600 bottles per hour capacity",
+        "Adjustable chamber size",
+        "900x450x250mm chamber dimensions",
+        "6.5kW heating power",
+        "Three phase power supply",
+        "MS powder coated construction"
+      ],
+      "image": "/product/SWM13.webp",
+      "images": [
+        "/product/SWM13.webp",
+        "/product/SWM9.webp",
+        "/product/SWM20.webp",
+        "/product/SWM4.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 57,
+      "name": "SWM-L-Sealer with Tunnel",
+      "category": "Shrink wrapping Machine",
+      "rating": 4.5,
+      "description": "L-sealer shrink wrapping machine with integrated tunnel for complete packaging solution. Ideal for single products and small bundles.",
+      "features": [
+        "L-sealer configuration",
+        "Integrated shrink tunnel",
+        "Semi-automatic operation",
+        "Variable speed control",
+        "Compact design",
+        "Easy operation controls"
+      ],
+      "image": "/product/SWM17.webp",
+      "images": [
+        "/product/SWM17.webp",
+        "/product/SWM12.webp",
+        "/product/SWM14.webp",
+        "/product/SWM20.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 58,
+      "name": "SWM-Steam Tunnel System",
+      "category": "Shrink wrapping Machine",
+      "rating": 4.7,
+      "description": "Steam-based shrink tunnel for high-quality shrinking applications. Features precise temperature control and uniform heat distribution.",
+      "features": [
+        "Steam heating technology",
+        "Precise temperature control",
+        "Uniform heat distribution",
+        "High-quality shrinking",
+        "Energy efficient operation",
+        "Industrial grade construction"
+      ],
+      "image": "/product/SWM17.webp",
+      "images": [
+        "/product/SWM17.webp",
+        "/product/SWM16.webp",
+        "/product/SWM10.webp",
+        "/product/SWM3.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 59,
+      "name": "SWM-High-Speed Automatic Wrapper",
+      "category": "Shrink wrapping Machine",
+      "rating": 4.8,
+      "description": "High-speed automatic shrink wrapping machine for industrial production lines. Features continuous operation and high throughput capabilities.",
+      "features": [
+        "High-speed automatic operation",
+        "Continuous production capability",
+        "60 pieces per minute capacity",
+        "Automatic grade operation",
+        "Industrial line integration",
+        "Minimal operator intervention"
+      ],
+      "image": "/product/SWM16.webp",
+      "images": [
+        "/product/SWM16.webp",
+        "/product/SWM13.webp",
+        "/product/SWM17.webp",
+        "/product/SWM14.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 60,
+      "name": "SWM-Multi-Pack Bundle Wrapper",
+      "category": "Shrink wrapping Machine",
+      "rating": 4.6,
+      "description": "Specialized shrink wrapping machine for creating multi-pack bundles. Features flexible configuration for various bundle sizes and arrangements.",
+      "features": [
+        "Multi-pack bundle capability",
+        "Flexible configuration options",
+        "Various bundle sizes",
+        "Automatic bundling system",
+        "Retail-ready packaging",
+        "Customizable arrangements"
+      ],
+      "image": "/product/SWM18.webp",
+      "images": [
+        "/product/SWM18.webp",
+        "/product/SWM14.webp",
+        "/product/SWM17.webp",
+        "/product/SWM7.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 61,
+      "name": "SWM-Heavy Duty Industrial Wrapper",
+      "category": "Shrink wrapping Machine",
+      "rating": 4.7,
+      "description": "Heavy-duty shrink wrapping machine for large and heavy products. Features reinforced construction and powerful heating elements.",
+      "features": [
+        "Heavy-duty construction",
+        "Large product capability",
+        "Reinforced frame design",
+        "Powerful heating elements",
+        "Industrial applications",
+        "High load capacity"
+      ],
+      "image": "/product/SWM1.webp",
+      "images": [
+        "/product/SWM1.webp",
+        "/product/SWM19.webp",
+        "/product/SWM18.webp",
+        "/product/SWM3.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 62,
+      "name": "SWM-Infrared Heating Tunnel",
+      "category": "Shrink wrapping Machine",
+      "rating": 4.5,
+      "description": "Advanced infrared heating tunnel for efficient shrink wrapping. Features energy-saving IR heaters and uniform temperature distribution.",
+      "features": [
+        "Infrared heating technology",
+        "Energy saving operation",
+        "20% power reduction capability",
+        "Uniform temperature distribution",
+        "Variable speed controller",
+        "PVC/POF film compatible"
+      ],
+      "image": "/product/SWM7.webp",
+      "images": [
+        "/product/SWM7.webp",
+        "/product/SWM17.webp",
+        "/product/SWM19.webp",
+        "/product/SWM18.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 63,
+      "name": "SWM-Sleeve Wrapper Machine",
+      "category": "Shrink wrapping Machine",
+      "rating": 4.6,
+      "description": "Sleeve wrapping machine for bottles and containers. Features side-sealing technology and integrated tunnel for complete sleeve application.",
+      "features": [
+        "Sleeve wrapping specialization",
+        "Side-sealing technology",
+        "Bottle and container focus",
+        "Integrated tunnel system",
+        "Automatic operation",
+        "Product protection focus"
+      ],
+      "image": "/product/SWM8.webp",
+      "images": [
+        "/product/SWM8.webp",
+        "/product/SWM5.webp",
+        "/product/SWM17.webp",
+        "/product/SWM16.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 64,
+      "name": "SWM-Tray Shrink Wrapper",
+      "category": "Shrink wrapping Machine",
+      "rating": 4.4,
+      "description": "Tray shrink wrapping machine for food and retail products. Features tray feeding system and precise film application for retail-ready presentation.",
+      "features": [
+        "Tray wrapping specialization",
+        "Food and retail focus",
+        "Tray feeding system",
+        "Retail-ready presentation",
+        "Food safety compliance",
+        "Attractive packaging results"
+      ],
+      "image": "/product/SWM8.webp",
+      "images": [
+        "/product/SWM8.webp",
+        "/product/SWM16.webp",
+        "/product/SWM6.webp",
+        "/product/SWM12.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 65,
+      "name": "SWM-Eco-Friendly Wrapper",
+      "category": "Shrink wrapping Machine",
+      "rating": 4.5,
+      "description": "Environmentally conscious shrink wrapping machine compatible with biodegradable films. Features energy-efficient operation and sustainable packaging focus.",
+      "features": [
+        "Eco-friendly design",
+        "Biodegradable film compatible",
+        "Energy efficient operation",
+        "Sustainable packaging focus",
+        "Reduced environmental impact",
+        "Green certification ready"
+      ],
+      "image": "/product/SWM19.webp",
+      "images": [
+        "/product/SWM19.webp",
+        "/product/SWM17.webp",
+        "/product/SWM14.webp",
+        "/product/SWM5.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 66,
+      "name": "SWM-Pharmaceutical Grade Wrapper",
+      "category": "Shrink wrapping Machine",
+      "rating": 4.8,
+      "description": "GMP-compliant shrink wrapping machine for pharmaceutical products. Features validation capability and cleanroom-compatible design.",
+      "features": [
+        "GMP compliant design",
+        "Pharmaceutical validation",
+        "Cleanroom compatible",
+        "Sterile packaging capability",
+        "Regulatory compliance",
+        "Documentation included"
+      ],
+      "image": "/product/SWM15.webp",
+      "images": [
+        "/product/SWM15.webp",
+        "/product/SWM2.webp",
+        "/product/SWM17.webp",
+        "/product/SWM13.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 67,
+      "name": "HS-Portal Automated Handling System",
+      "category": "Handling Systems",
+      "rating": 4.8,
+      "description": "7-axis portal handling system for precise pick-and-place operations. Features advanced motion control and high-speed positioning for manufacturing applications.",
+      "features": [
+        "7-axis portal configuration",
+        "High-speed positioning",
+        "Advanced motion control",
+        "Pick-and-place specialization",
+        "Manufacturing integration",
+        "Error reduction technology"
+      ],
+      "image": "/product/HS14.webp",
+      "images": [
+        "/product/HS14.webp",
+        "/product/HS7.webp",
+        "/product/HS3.webp",
+        "/product/HS12.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 68,
+      "name": "HS-Linear Axis Handling Module",
+      "category": "Handling Systems",
+      "rating": 4.6,
+      "description": "Modular linear axis handling system for flexible automation solutions. Features high precision and dynamic performance with single-cable technology.",
+      "features": [
+        "Modular linear axis design",
+        "High precision positioning",
+        "Dynamic performance",
+        "Single-cable technology",
+        "Integrated hall sensors",
+        "Standardized components"
+      ],
+      "image": "/product/HS20.webp",
+      "images": [
+        "/product/HS20.webp",
+        "/product/HS11.webp",
+        "/product/HS12.webp",
+        "/product/HS19.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 69,
+      "name": "HS-Rotary Handling Station",
+      "category": "Handling Systems",
+      "rating": 4.7,
+      "description": "Rotary handling system for circular motion applications. Features precise rotational control and integrated gripping systems for versatile handling tasks.",
+      "features": [
+        "Rotary motion specialization",
+        "Precise rotational control",
+        "Integrated gripping systems",
+        "Versatile handling capability",
+        "Compact design",
+        "High repeatability"
+      ],
+      "image": "/product/HS2.webp",
+      "images": [
+        "/product/HS2.webp",
+        "/product/HS19.webp",
+        "/product/HS15.webp",
+        "/product/HS5.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 70,
+      "name": "HS-Pneumatic Handling System",
+      "category": "Handling Systems",
+      "rating": 4.5,
+      "description": "Pneumatic-driven handling system for fast and reliable material handling. Features air-powered actuators and precise positioning control.",
+      "features": [
+        "Pneumatic drive technology",
+        "Fast operation capability",
+        "Air-powered actuators",
+        "Precise positioning",
+        "Reliable operation",
+        "Cost-effective solution"
+      ],
+      "image": "/product/HS10.webp",
+      "images": [
+        "/product/HS10.webp",
+        "/product/HS15.webp",
+        "/product/HS12.webp",
+        "/product/HS2.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 71,
+      "name": "HS-Electric Servo Handling Unit",
+      "category": "Handling Systems",
+      "rating": 4.8,
+      "description": "Electric servo-driven handling system for precise and programmable motion control. Features advanced servo technology and flexible programming options.",
+      "features": [
+        "Electric servo drive",
+        "Precise motion control",
+        "Programmable operations",
+        "Advanced servo technology",
+        "Flexible programming",
+        "High accuracy positioning"
+      ],
+      "image": "/product/HS4.webp",
+      "images": [
+        "/product/HS4.webp",
+        "/product/HS20.webp",
+        "/product/HS6.webp",
+        "/product/HS15.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 72,
+      "name": "HS-Multi-Axis Handling Robot",
+      "category": "Handling Systems",
+      "rating": 4.9,
+      "description": "Multi-axis handling robot for complex material handling applications. Features 6-DOF movement capability and intelligent control systems.",
+      "features": [
+        "Multi-axis configuration",
+        "6-DOF movement capability",
+        "Complex handling applications",
+        "Intelligent control systems",
+        "Flexible workspace coverage",
+        "Advanced path planning"
+      ],
+      "image": "/product/HS11.webp",
+      "images": [
+        "/product/HS11.webp",
+        "/product/HS16.webp",
+        "/product/HS14.webp",
+        "/product/HS9.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 73,
+      "name": "HS-Palletizing Handling System",
+      "category": "Handling Systems",
+      "rating": 4.7,
+      "description": "Specialized palletizing handling system for automated warehouse operations. Features heavy load capacity and intelligent stacking algorithms.",
+      "features": [
+        "Palletizing specialization",
+        "Heavy load capacity",
+        "Intelligent stacking algorithms",
+        "Warehouse automation",
+        "Layer formation capability",
+        "Efficient pallet building"
+      ],
+      "image": "/product/HS14.webp",
+      "images": [
+        "/product/HS14.webp",
+        "/product/HS19.webp",
+        "/product/HS8.webp",
+        "/product/HS15.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 74,
+      "name": "HS-Food Grade Handling System",
+      "category": "Handling Systems",
+      "rating": 4.6,
+      "description": "Food-grade handling system designed for hygienic food processing environments. Features washdown-ready construction and FDA-approved materials.",
+      "features": [
+        "Food-grade construction",
+        "Hygienic design",
+        "Washdown-ready features",
+        "FDA-approved materials",
+        "HACCP compliance",
+        "Easy cleaning access"
+      ],
+      "image": "/product/HS19.webp",
+      "images": [
+        "/product/HS19.webp",
+        "/product/HS4.webp",
+        "/product/HS17.webp",
+        "/product/HS2.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 75,
+      "name": "HS-Flexible Gripper System",
+      "category": "Handling Systems",
+      "rating": 4.5,
+      "description": "Adaptive gripper handling system for diverse product shapes and sizes. Features intelligent gripping force control and quick-change tooling.",
+      "features": [
+        "Adaptive gripping technology",
+        "Diverse product handling",
+        "Intelligent force control",
+        "Quick-change tooling",
+        "Shape recognition capability",
+        "Damage prevention features"
+      ],
+      "image": "/product/HS18.webp",
+      "images": [
+        "/product/HS18.webp",
+        "/product/HS8.webp",
+        "/product/HS6.webp",
+        "/product/HS20.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 76,
+      "name": "HS-High-Speed Handling Line",
+      "category": "Handling Systems",
+      "rating": 4.7,
+      "description": "High-speed handling system for continuous production lines. Features optimized cycle times and synchronized operations with existing equipment.",
+      "features": [
+        "High-speed operation",
+        "Optimized cycle times",
+        "Synchronized operations",
+        "Production line integration",
+        "Continuous operation capability",
+        "Minimal downtime design"
+      ],
+      "image": "/product/HS7.webp",
+      "images": [
+        "/product/HS7.webp",
+        "/product/HS11.webp",
+        "/product/HS1.webp",
+        "/product/HS3.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 77,
+      "name": "HS-Custom Handling Solution",
+      "category": "Handling Systems",
+      "rating": 4.8,
+      "description": "Custom-engineered handling system tailored to specific application requirements. Features collaborative design process and comprehensive engineering support.",
+      "features": [
+        "Custom engineering approach",
+        "Application-specific design",
+        "Collaborative design process",
+        "Comprehensive support",
+        "Tailored solutions",
+        "Engineering expertise included"
+      ],
+      "image": "/product/HS6.webp",
+      "images": [
+        "/product/HS6.webp",
+        "/product/HS2.webp",
+        "/product/HS7.webp",
+        "/product/HS12.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 78,
+      "name": "RA-6Axis Articulated Robot",
+      "category": "Robotics automation",
+      "rating": 4.8,
+      "description": "6-axis articulated robot for versatile industrial applications. Features high payload capacity, precise positioning, and advanced motion control for manufacturing automation.",
+      "features": [
+        "6-axis articulated design",
+        "High payload capacity",
+        "Precise positioning control",
+        "Advanced motion algorithms",
+        "Manufacturing automation focus",
+        "Flexible workspace coverage"
+      ],
+      "image": "/product/RA6.webp",
+      "images": [
+        "/product/RA6.webp",
+        "/product/RA2.webp",
+        "/product/RA14.webp",
+        "/product/RA7.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 79,
+      "name": "RA-Collaborative Robot (Cobot)",
+      "category": "Robotics automation",
+      "rating": 4.9,
+      "description": "Human-robot collaborative system designed for safe interaction with workers. Features advanced safety sensors and intuitive programming interface.",
+      "features": [
+        "Human-robot collaboration",
+        "Advanced safety sensors",
+        "Intuitive programming",
+        "Worker safety focus",
+        "Easy setup and operation",
+        "Flexible deployment options"
+      ],
+      "image": "/product/RA19.webp",
+      "images": [
+        "/product/RA19.webp",
+        "/product/RA18.webp",
+        "/product/RA14.webp",
+        "/product/RA20.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 80,
+      "name": "RA-SCARA Robot System",
+      "category": "Robotics automation",
+      "rating": 4.7,
+      "description": "SCARA robot system for high-speed pick-and-place applications. Features exceptional speed and precision for assembly and material handling tasks.",
+      "features": [
+        "SCARA robot configuration",
+        "High-speed operation",
+        "Exceptional precision",
+        "Assembly applications",
+        "Material handling focus",
+        "Rapid cycle times"
+      ],
+      "image": "/product/RA6.webp",
+      "images": [
+        "/product/RA6.webp",
+        "/product/RA12.webp",
+        "/product/RA3.webp",
+        "/product/RA7.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 81,
+      "name": "RA-Delta Picking Robot",
+      "category": "Robotics automation",
+      "rating": 4.8,
+      "description": "High-speed delta robot for packaging and picking applications. Features parallel kinematic design and ultra-fast cycle times for food and pharmaceutical industries.",
+      "features": [
+        "Delta parallel kinematic design",
+        "Ultra-fast cycle times",
+        "Packaging specialization",
+        "Food industry applications",
+        "Pharmaceutical compliance",
+        "Compact footprint"
+      ],
+      "image": "/product/RA13.webp",
+      "images": [
+        "/product/RA13.webp",
+        "/product/RA18.webp",
+        "/product/RA15.webp",
+        "/product/RA7.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 82,
+      "name": "RA-Palletizing Robot Cell",
+      "category": "Robotics automation",
+      "rating": 4.7,
+      "description": "Complete palletizing robot cell for automated warehouse operations. Features intelligent stacking algorithms and integrated safety systems.",
+      "features": [
+        "Complete palletizing cell",
+        "Intelligent stacking algorithms",
+        "Integrated safety systems",
+        "Warehouse automation",
+        "Heavy payload capability",
+        "Efficient pallet building"
+      ],
+      "image": "/product/RA7.webp",
+      "images": [
+        "/product/RA7.webp",
+        "/product/RA4.webp",
+        "/product/RA3.webp",
+        "/product/RA19.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 83,
+      "name": "RA-Welding Automation System",
+      "category": "Robotics automation",
+      "rating": 4.6,
+      "description": "Robotic welding automation system for consistent and high-quality welds. Features arc welding capabilities and adaptive welding parameters.",
+      "features": [
+        "Robotic arc welding",
+        "Consistent weld quality",
+        "Adaptive parameters",
+        "Automotive applications",
+        "Seam tracking capability",
+        "Weld quality monitoring"
+      ],
+      "image": "/product/RA11.webp",
+      "images": [
+        "/product/RA11.webp",
+        "/product/RA13.webp",
+        "/product/RA8.webp",
+        "/product/RA9.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 84,
+      "name": "RA-Vision-Guided Robot System",
+      "category": "Robotics automation",
+      "rating": 4.8,
+      "description": "Vision-guided robotic system for intelligent automation. Features machine vision integration and AI-powered decision making for complex tasks.",
+      "features": [
+        "Machine vision integration",
+        "AI-powered decision making",
+        "Intelligent automation",
+        "Complex task handling",
+        "Real-time vision processing",
+        "Adaptive behavior capability"
+      ],
+      "image": "/product/RA12.webp",
+      "images": [
+        "/product/RA12.webp",
+        "/product/RA20.webp",
+        "/product/RA15.webp",
+        "/product/RA17.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 85,
+      "name": "RA-Mobile Robot Platform",
+      "category": "Robotics automation",
+      "rating": 4.5,
+      "description": "Autonomous mobile robot platform for material transport and logistics. Features navigation system and fleet management capabilities.",
+      "features": [
+        "Autonomous mobile platform",
+        "Navigation system",
+        "Fleet management capability",
+        "Material transport focus",
+        "Logistics automation",
+        "Obstacle avoidance system"
+      ],
+      "image": "/product/RA14.webp",
+      "images": [
+        "/product/RA14.webp",
+        "/product/RA17.webp",
+        "/product/RA18.webp",
+        "/product/RA13.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 86,
+      "name": "RA-Assembly Robot Workstation",
+      "category": "Robotics automation",
+      "rating": 4.7,
+      "description": "Dedicated assembly robot workstation for precision manufacturing. Features force control and quality inspection integration.",
+      "features": [
+        "Precision assembly focus",
+        "Force control capability",
+        "Quality inspection integration",
+        "Manufacturing workstation",
+        "Component handling",
+        "Assembly verification"
+      ],
+      "image": "/product/RA16.webp",
+      "images": [
+        "/product/RA16.webp",
+        "/product/RA12.webp",
+        "/product/RA1.webp",
+        "/product/RA4.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 87,
+      "name": "RA-Paint Application Robot",
+      "category": "Robotics automation",
+      "rating": 4.6,
+      "description": "Specialized paint application robot for automotive and general manufacturing. Features precise spray control and environmental compliance.",
+      "features": [
+        "Paint application specialization",
+        "Precise spray control",
+        "Automotive applications",
+        "Environmental compliance",
+        "Uniform coating quality",
+        "Explosion-proof design"
+      ],
+      "image": "/product/RA20.webp",
+      "images": [
+        "/product/RA20.webp",
+        "/product/RA3.webp",
+        "/product/RA7.webp",
+        "/product/RA9.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 88,
+      "name": "RA-Flexible Manufacturing Cell",
+      "category": "Robotics automation",
+      "rating": 4.9,
+      "description": "Complete flexible manufacturing cell with multiple robots and automation components. Features Industry 4.0 connectivity and adaptive production capabilities.",
+      "features": [
+        "Complete manufacturing cell",
+        "Multiple robot integration",
+        "Industry 4.0 connectivity",
+        "Adaptive production",
+        "IoT integration",
+        "Smart manufacturing focus"
+      ],
+      "image": "/product/RA16.webp",
+      "images": [
+        "/product/RA16.webp",
+        "/product/RA20.webp",
+        "/product/RA19.webp",
+        "/product/RA12.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 89,
+      "name": "CS-Belt Conveyor System",
+      "category": "Conveying Solutions",
+      "rating": 4.7,
+      "description": "Heavy-duty belt conveyor system for bulk material handling over long distances. Features high-capacity transport and weather-resistant construction.",
+      "features": [
+        "Heavy-duty construction",
+        "Long-distance capability up to 20km",
+        "100-50,000 t/h capacity range",
+        "Weather-resistant design",
+        "Bulk material specialization",
+        "High availability operation"
+      ],
+      "image": "/product/CS1.webp",
+      "images": [
+        "/product/CS1.webp",
+        "/product/CS6.webp",
+        "/product/CS14.webp",
+        "/product/CS13.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 90,
+      "name": "CS-Roller Conveyor Line",
+      "category": "Conveying Solutions",
+      "rating": 4.5,
+      "description": "Modular roller conveyor system for pallets and containers. Features gravity and powered options with flexible configuration possibilities.",
+      "features": [
+        "Modular roller design",
+        "Pallet and container transport",
+        "Gravity and powered options",
+        "Flexible configuration",
+        "Easy maintenance access",
+        "Scalable system design"
+      ],
+      "image": "/product/CS20.webp",
+      "images": [
+        "/product/CS20.webp",
+        "/product/CS6.webp",
+        "/product/CS10.webp",
+        "/product/CS19.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 91,
+      "name": "CS-Chain Conveyor System",
+      "category": "Conveying Solutions",
+      "rating": 4.6,
+      "description": "Heavy-duty chain conveyor for challenging material handling applications. Features robust construction and high-temperature operation capability.",
+      "features": [
+        "Heavy-duty chain design",
+        "Challenging material handling",
+        "High-temperature capability",
+        "Robust construction",
+        "Wear-resistant components",
+        "Industrial applications"
+      ],
+      "image": "/product/CS11.webp",
+      "images": [
+        "/product/CS11.webp",
+        "/product/CS6.webp",
+        "/product/CS2.webp",
+        "/product/CS15.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 92,
+      "name": "CS-Bucket Elevator System",
+      "category": "Conveying Solutions",
+      "rating": 4.7,
+      "description": "Vertical conveying solution using bucket elevator technology. Ideal for moving bulk materials to different height levels efficiently.",
+      "features": [
+        "Vertical conveying capability",
+        "Bucket elevator technology",
+        "Height level transportation",
+        "Bulk material handling",
+        "Efficient vertical lift",
+        "Space-saving design"
+      ],
+      "image": "/product/CS9.webp",
+      "images": [
+        "/product/CS9.webp",
+        "/product/CS17.webp",
+        "/product/CS8.webp",
+        "/product/CS20.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 93,
+      "name": "CS-Screw Conveyor Unit",
+      "category": "Conveying Solutions",
+      "rating": 4.4,
+      "description": "Screw conveyor system for precise dosing and material feeding. Features controlled flow rates and enclosed design for dust-free operation.",
+      "features": [
+        "Screw conveyor mechanism",
+        "Precise dosing capability",
+        "Controlled flow rates",
+        "Enclosed dust-free design",
+        "Material feeding focus",
+        "Alternative fuel applications"
+      ],
+      "image": "/product/CS2.webp",
+      "images": [
+        "/product/CS2.webp",
+        "/product/CS5.webp",
+        "/product/CS12.webp",
+        "/product/CS15.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 94,
+      "name": "CS-Pipe Conveyor System",
+      "category": "Conveying Solutions",
+      "rating": 4.8,
+      "description": "Enclosed pipe conveyor for sensitive materials requiring environmental protection. Features complete enclosure and weather-independent operation.",
+      "features": [
+        "Enclosed pipe design",
+        "Environmental protection",
+        "Weather-independent operation",
+        "Sensitive material handling",
+        "Dust-free transportation",
+        "Contamination prevention"
+      ],
+      "image": "/product/CS15.webp",
+      "images": [
+        "/product/CS15.webp",
+        "/product/CS14.webp",
+        "/product/CS13.webp",
+        "/product/CS6.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 95,
+      "name": "CS-Air-Supported Belt Conveyor",
+      "category": "Conveying Solutions",
+      "rating": 4.6,
+      "description": "Innovative air-supported belt conveyor for enhanced efficiency and environmental protection. Features reduced friction and energy-efficient operation.",
+      "features": [
+        "Air-support technology",
+        "Enhanced efficiency",
+        "Environmental protection",
+        "Reduced friction operation",
+        "Energy-efficient design",
+        "Operational cost savings"
+      ],
+      "image": "/product/CS18.webp",
+      "images": [
+        "/product/CS18.webp",
+        "/product/CS2.webp",
+        "/product/CS14.webp",
+        "/product/CS19.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 96,
+      "name": "CS-Mobile Conveyor System",
+      "category": "Conveying Solutions",
+      "rating": 4.5,
+      "description": "Mobile conveyor system for flexible material handling in mining and construction. Features portability and quick setup capabilities.",
+      "features": [
+        "Mobile conveyor design",
+        "Flexible material handling",
+        "Mining and construction focus",
+        "Portable operation",
+        "Quick setup capability",
+        "Temporary installation friendly"
+      ],
+      "image": "/product/CS19.webp",
+      "images": [
+        "/product/CS19.webp",
+        "/product/CS4.webp",
+        "/product/CS20.webp",
+        "/product/CS13.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 97,
+      "name": "CS-Baggage Handling System",
+      "category": "Conveying Solutions",
+      "rating": 4.7,
+      "description": "Airport baggage handling conveyor system with sorting and tracking capabilities. Features RFID integration and automated routing.",
+      "features": [
+        "Airport baggage focus",
+        "Sorting and tracking capability",
+        "RFID integration",
+        "Automated routing system",
+        "High reliability operation",
+        "Passenger service optimization"
+      ],
+      "image": "/product/CS6.webp",
+      "images": [
+        "/product/CS6.webp",
+        "/product/CS14.webp",
+        "/product/CS1.webp",
+        "/product/CS19.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 98,
+      "name": "CS-Food Grade Conveyor",
+      "category": "Conveying Solutions",
+      "rating": 4.8,
+      "description": "Food-grade conveyor system designed for hygienic food processing environments. Features washdown-ready construction and FDA compliance.",
+      "features": [
+        "Food-grade construction",
+        "Hygienic design",
+        "Washdown-ready features",
+        "FDA compliance",
+        "HACCP compatibility",
+        "Easy cleaning access"
+      ],
+      "image": "/product/CS3.webp",
+      "images": [
+        "/product/CS3.webp",
+        "/product/CS4.webp",
+        "/product/CS14.webp",
+        "/product/CS1.webp"
+      ],
+      "inStock": true
+    },
+    {
+      "id": 99,
+      "name": "CS-Logistics Distribution System",
+      "category": "Conveying Solutions",
+      "rating": 4.6,
+      "description": "Complete logistics distribution conveyor system for e-commerce and warehousing. Features automated sorting and package routing capabilities.",
+      "features": [
+        "Logistics distribution focus",
+        "E-commerce applications",
+        "Automated sorting capability",
+        "Package routing system",
+        "Warehouse integration",
+        "High throughput design"
+      ],
+      "image": "/product/CS4.webp",
+      "images": [
+        "/product/CS4.webp",
+        "/product/CS10.webp",
+        "/product/CS8.webp",
+        "/product/CS9.webp"
+      ],
+      "inStock": true
+    }
   ]
 }
