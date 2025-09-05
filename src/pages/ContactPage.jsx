@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Mail, Phone, MapPin, Clock, Send, ArrowRight, PackagePlus } from "lucide-react";
 import { useForm, ValidationError } from "@formspree/react";
-import { ToastContainer, toast } from "react-toastify";
+import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const fadeUp = {
@@ -39,7 +39,6 @@ export default function Contact() {
   return (
     <main className="min-h-dvh bg-slate-50 text-neutral-900 mt-28">
       {/* Toast container (once per app; fine to keep here for this page) */}
-      <ToastContainer position="top-center" autoClose={4000} closeOnClick pauseOnHover />
       <section className="mx-auto w-full max-w-6xl px-4 py-12 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div

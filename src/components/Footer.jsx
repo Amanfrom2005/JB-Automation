@@ -1,7 +1,8 @@
-import { useEffect, useState, useCallback } from "react"
+import { useState } from "react"
 import { motion } from "framer-motion"
 import { Send, Facebook, Twitter, Instagram, Linkedin, Sun, Moon, MapPin, Phone, Mail, YoutubeIcon } from "lucide-react"
 import { Link } from "react-router-dom"
+import { toast } from "react-toastify"
 
 // Color system (max 5): primary blue-600; neutrals white, slate-900/700/300.
 // Typography: system sans via Tailwind's font-sans (already configured).
@@ -42,6 +43,33 @@ const item = {
 
 export default function Footer() {
 
+   const [email, setEmail] = useState("");
+  const [status, setStatus] = useState(null); // "loading" | null
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setStatus("loading");
+
+    try {
+      const response = await fetch("https://formspree.io/f/mwpnwyqp", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email }),
+      });
+
+      if (response.ok) {
+        toast.success("🎉 Thanks for subscribing!");
+        setEmail("");
+      } else {
+        toast.error("❌ Something went wrong. Try again later.");
+      }
+    } catch (err) {
+      console.error("Form submission error:", err);
+      toast.error("⚠️ Network error. Please try again.");
+    } finally {
+      setStatus(null);
+    }
+  };
   return (
     <footer className="font-sans border-t border-slate-200 bg-white text-slate-800 dark:border-slate-800 dark:bg-slate-950 dark:text-slate-100">
       <motion.div
@@ -60,29 +88,36 @@ export default function Footer() {
               <p className="mt-2 max-w-md text-sm leading-6 text-slate-600 dark:text-slate-300">
                 Join our newsletter for the latest updates and exclusive offers.
               </p>
-              <form onSubmit={(e) => e.preventDefault()} className="mt-4" aria-label="Newsletter subscription">
-                <label htmlFor="footer-email" className="sr-only">
-                  Email address
-                </label>
-                <div className="flex items-center gap-2 rounded-sm border border-slate-300 bg-white px-3 py-2 shadow-sm ring-1 ring-transparent focus-within:ring-2 focus-within:ring-blue-600 dark:border-slate-700 dark:bg-slate-900">
-                  <input
-                    id="footer-email"
-                    type="email"
-                    required
-                    placeholder="Enter your email"
-                    className="w-full bg-transparent text-sm outline-none placeholder:text-slate-400 dark:placeholder:text-slate-500"
-                  />
-                  <motion.button
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.98 }}
-                    type="submit"
-                    aria-label="Subscribe"
-                    className="inline-flex h-9 w-9 items-center justify-center rounded-sm bg-blue-600 text-white shadow transition-colors hover:bg-blue-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 dark:bg-blue-500 dark:hover:bg-blue-400"
-                  >
-                    <Send size={16} aria-hidden="true" />
-                  </motion.button>
-                </div>
-              </form>
+              <form
+        onSubmit={handleSubmit}
+        className="mt-4"
+        aria-label="Newsletter subscription"
+      >
+        <label htmlFor="footer-email" className="sr-only">
+          Email address
+        </label>
+        <div className="flex items-center gap-2 rounded-sm border border-slate-300 bg-white px-3 py-2 shadow-sm ring-1 ring-transparent focus-within:ring-2 focus-within:ring-blue-600 dark:border-slate-700 dark:bg-slate-900">
+          <input
+            id="footer-email"
+            type="email"
+            required
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            placeholder="Enter your email"
+            className="w-full bg-transparent text-sm outline-none placeholder:text-slate-400 dark:placeholder:text-slate-500"
+          />
+          <motion.button
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.98 }}
+            type="submit"
+            aria-label="Subscribe"
+            disabled={status === "loading"}
+            className="inline-flex h-9 w-9 items-center justify-center rounded-sm bg-blue-600 text-white shadow transition-colors hover:bg-blue-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 disabled:opacity-50 dark:bg-blue-500 dark:hover:bg-blue-400"
+          >
+            <Send size={16} aria-hidden="true" />
+          </motion.button>
+        </div>
+      </form>
             </motion.section>
 
             {/* Quick Links */}

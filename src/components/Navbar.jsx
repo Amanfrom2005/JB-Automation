@@ -5,9 +5,9 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 
 const mainItems = [
   { label: "OYSTAR GROUP", to: "/" },
-  { label: "BRANDS", to: "/brands" },
+  { label: "ABOUT", to: "/about" },
   { label: "PRODUCTS", to: "/products" },
-  { label: "MARKETS", to: "/markets" },
+  { label: "MARKETS", to: "/market" },
   { label: "SERVICE", to: "/service" },
   { label: "CAREER", to: "/career" },
   { label: "CONTACT", to: "/contact" },
@@ -15,7 +15,7 @@ const mainItems = [
 
 const utilityLinks = [
   { label: "News", to: "/news" },
-  { label: "Events", to: "/events" },
+  { label: "Events", to: "/event" },
   { label: "Procurement", to: "/procurement" },
 ];
 
